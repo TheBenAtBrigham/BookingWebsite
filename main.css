@@ -1,0 +1,62 @@
+.flag
+{
+    height: 50px;
+    width: auto;
+    padding: 0px;
+    /*box-shadow: 10px 5px 5px black;*/
+}
+
+div.scroll-bar {
+    background-color: #0073ff;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scroll-bar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  div.scroll-bar p {
+    color: white;
+    z-index: 1;
+  }
+  
+  div.scroll-bar a:hover {
+    background-color: #777;
+  }
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transition: 1s ease-out, color 1s;
+  }
+
+
+  .arrow:hover {
+    transform: rotate(45deg);
+    display: inline-block;
+    padding: 3px;
+    border: solid grey;
+    border-width: 0 3px 3px 0;
+  }
+
+  @keyframes text-emerge
+  {
+
+  }
+  
