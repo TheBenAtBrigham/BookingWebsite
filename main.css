@@ -1,8 +1,16 @@
+header
+{
+  background-color: #ff8811;
+}
+
 .flag
 {
     height: 50px;
     width: auto;
-    padding: 0px;
+    padding:2px;
+
+    
+
     /*box-shadow: 10px 5px 5px black;*/
 }
 
@@ -14,21 +22,58 @@ div.scroll-bar {
   
   div.scroll-bar a {
     display: inline-block;
+    position:relative;
     color: white;
     text-align: center;
-    padding: 14px;
+    padding: 5px;
+    width: 100px;
     text-decoration: none;
-  }
-  div.scroll-bar p {
-    color: white;
-    z-index: 1;
-  }
-  
-  div.scroll-bar a:hover {
-    background-color: #777;
+    
+    p{
+      transform: translateY(-30px);
+      color: rgba(0, 0, 0, 0);
+      transition: all 0.5s ease-out;
+      z-index: 1;
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */
+    }
+    img{
+      transform: translateY(25px);
+      transition: all 1s ease-out;
+      z-index: 2;
+    }
+
   }
 
-.up {
+  div.scroll-bar a:hover {
+    background-color: #777;
+    p{
+      color: white;
+      transform: translateY(10px);
+      transition: all 1s ease-out;
+    }
+    img{
+      transform: translateY(10px);
+      transition: all 1s ease-out;
+    }
+  }
+
+ 
+  div.scroll-bar img:hover
+  {
+    position:relative;
+    
+    
+
+  }
+  
+
+
+
+  
+
+  .up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
   }
@@ -59,4 +104,27 @@ div.scroll-bar {
   {
 
   }
+
+  footer {
+    background-color: #ff8811;
+    padding: 20px;
+  }
+  footer a {
+    border: 10px;
+  }
+  footer img
+  {
+    height: 25px;
+    width: auto;
+  }
+  #black {
+    background-color: black;
+    
+  }
+  .white
+  {
+    filter:  brightness(0) invert(1);
+    z-index: 5;
+  }
+
   
