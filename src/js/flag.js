@@ -1,8 +1,33 @@
 
 //npm install cors
 //npm start run
+const link = 'path/to/your/file.json'
 
-fetch('./src/countries.json') // Path to your JSON file
+async function loadAndStringThisJSON(filePath)
+{ try
+  {
+  const response = await fetch(filePath);
+  if (!response.ok){
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  const jsonData = await response.json();
+        const jsonString = JSON.stringify(jsonData);
+        return jsonString;
+    } catch (error) {
+        console.error("Could not read or stringify the file:", error);
+        return null;
+    }
+}
+
+loadAndStringThisJSON(link)
+    .then(jsonString => {
+        if (jsonString) {
+            console.log(jsonString);
+        }
+});
+
+
+fetch(link) // Path to your JSON file
 
   .then(response => {
     if (!response.ok) {
@@ -19,12 +44,18 @@ fetch('./src/countries.json') // Path to your JSON file
     console.error('Error fetching or parsing JSON:', error);
   });
 
+/*var rows = '';
 var jsonData = JSON.stringify(data);
 for (var i = 0; i < jsonData.length; i++) {
   var obj = jsonData[i];
   console.log(obj);
-  //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
-}
+  //rows += "<t
+  r><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
+}*/
+//document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
+
+
+
 const myElement = document.getElementById("demo");
 
 function getLocation() {
