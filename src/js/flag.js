@@ -1,7 +1,7 @@
 
 //npm install cors
 //npm start run
-
+const link = './src/js/flag.js'
 
 async function loadAndStringThisJSON(filePath)
 { try
@@ -19,7 +19,7 @@ async function loadAndStringThisJSON(filePath)
     }
 }
 
-loadAndStringThisJSON('path/to/your/file.json')
+loadAndStringThisJSON(link)
     .then(jsonString => {
         if (jsonString) {
             console.log(jsonString);
@@ -27,7 +27,7 @@ loadAndStringThisJSON('path/to/your/file.json')
 });
 
 
-fetch('path/to/your/file.json') // Path to your JSON file
+fetch(link) // Path to your JSON file
 
   .then(response => {
     if (!response.ok) {
