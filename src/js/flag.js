@@ -26,13 +26,13 @@ loadAndStringThisJSON('./src/countries.json')
         }
 });
 
-const string = loadAndStringThisJSON
+const str = loadAndStringThisJSON
 
 var rows = '';
-var jsonData = JSON.stringify(data);
+var jsonData = JSON.stringify(str);
 for (var i = 0; i < jsonData.length; i++) {
   var obj = jsonData[i];
-  console.log(obj);
+  console.log(obj.name);
   //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
 }
 //document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
