@@ -1,12 +1,9 @@
-//import jsonData from 'countries.json' assert {type : 'json'};
-//npm start run
-//console.log(jsonData);
-//JSON.parse();
 
 //npm install cors
 //npm start run
+link = "./src/countries.json"
 
-fetch('./src/countries.json') // Path to your JSON file
+fetch(link) // Path to your JSON file
   .then(response => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -22,24 +19,12 @@ fetch('./src/countries.json') // Path to your JSON file
     console.error('Error fetching or parsing JSON:', error);
   });
 
-/*async function getData() {
-  const url =
-    "https://github.com/TheBenAtBrigham/BookingWebsite/blob/master/countries.json";
-  try {
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`Response status: ${response.status}`);
-    }
-
-    const json = await response.json();
-    console.log(json);
-  } catch (error) {
-    console.error(error.message);
-  }
+var jsonData = JSON.stringify(data);
+for (var i = 0; i < jsonData.length; i++) {
+  var obj = jsonData[i];
+  console.log(obj);
+  //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
 }
-
-getData();
-*/
 const myElement = document.getElementById("demo");
 
 function getLocation() {
