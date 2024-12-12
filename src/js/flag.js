@@ -33,9 +33,9 @@ var jsonData = JSON.stringify(data);
 for (var i = 0; i < jsonData.length; i++) {
   var obj = jsonData[i];
   console.log(obj);
-  rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
+  //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
 }
-document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
+//document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
 
 
 fetch('./src/countries.json') // Path to your JSON file
