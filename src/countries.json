@@ -1,0 +1,231 @@
+[
+  {
+    "name": "United States of America",
+    "short-name": "United States",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
+    "flag-alt": "American Flag",
+    "region": "North America and Oceania",
+    "status": "Presidential democratic republic.",
+    "cities": [
+      {
+        "city-name": "New York City"
+      }
+    ]
+  },
+  {
+    "name": "Canada",
+    "short-name": "Canada",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/2560px-Flag_of_Canada_%28Pantone%29.svg.png",
+    "flag-alt": "Canadian Flag",
+    "region": "North America",
+    "status": "Parlamentary-based democracy with a constitutional monarch."
+  },
+  {
+    "name": "United Mexican States",
+    "short-name": "Mexico",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1920px-Flag_of_Mexico.svg.png",
+    "flag-alt": "Mexican Flag",
+    "region": "North America (Central America)",
+    "status": "Presidential democratic republic."
+  },
+  {
+    "name": "French Republic",
+    "short-name": "France",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1920px-Flag_of_France.svg.png",
+    "flag-alt": "French Flag",
+    "region": "Western Europe (Globally if including Overseas Territories)",
+    "status": "Dual-exective democratic republic."
+  },
+  {
+    "name": "Italy",
+    "short-name": "Italian Republic",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1920px-Flag_of_Italy.svg.png",
+    "flag-alt": "Italian Flag",
+    "region": "Southern and western Europe",
+    "status": "Parlamentary-based democratic republic with a ceremonial president."
+  },
+  {
+    "name": "Hellenic Republic",
+    "short-name": "Greece",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1920px-Flag_of_Greece.svg.png",
+    "flag-alt": "Greek Flag",
+    "region": "Southeast Europe and West Asia",
+    "status": "Parlamentary-based democratic republic with a ceremonial president."
+  },
+  {
+    "name": "Republic of Türkiye",
+    "short-name": "Turkey",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1920px-Flag_of_Turkey.svg.png",
+    "flag-alt": "Turkish Flag",
+    "region": "Southeast Europe and West Asia",
+    "status": "Presidential democratic republic."
+  },
+  {
+    "name": "Vatican City State",
+    "short-name": "Vatican City",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/1280px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
+    "flag-alt": "Catholic Flag",
+    "region": "Southern and western Europe",
+    "status": "Theocratic absolute monarchy with a monarch (The Pope) elected by Cardinals in the Catholic Church"
+  },
+  {
+    "name": "Swiss Confederation",
+    "short-name": "Switzerland",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/1280px-Flag_of_Switzerland_%28Pantone%29.svg.png",
+    "flag-alt": "Swiss Flag",
+    "region": "West-central Europe",
+    "status": "Assembly-independent directorial democratic republic"
+  },
+  {
+    "name": "Kingdom of Saudi Arabia",
+    "short-name": "Saudi Arabia",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1920px-Flag_of_Saudi_Arabia.svg.png",
+    "flag-alt": "Saudi Arabian Flag",
+    "region": "West Asia (Arabian Peninsula)",
+    "status": "Absolute monarchy based on Shia Islamic nationalist principles."
+  },
+  {
+    "name": "Commonwealth of Australia",
+    "short-name": "Australia",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/2560px-Flag_of_Australia_%28converted%29.svg.png",
+    "flag-alt": "Australian Flag",
+    "region": "Oceania",
+    "status": "Parlamentary-based democracy with a constitutional monarch."
+  },
+  {
+    "name": "Republic of China",
+    "short-name": "Taiwan",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1920px-Flag_of_the_Republic_of_China.svg.png",
+    "flag-alt": "Taiwanese Flag",
+    "region": "East Asia",
+    "status": "Dual-exective democratic republic with a complex relationship with the UN despite being a UN founding state."
+  },
+  {
+    "name": "People's Republic of China",
+    "short-name": "China",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1920px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    "flag-alt": "Chinese Flag",
+    "region": "East Asia",
+    "status": "One-party Marxist-Leninist Socialist (Or alternively, communist) republic"
+  },
+  {
+    "name": "State of Japan",
+    "short-name": "Japan",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1920px-Flag_of_Japan.svg.png",
+    "flag-alt": "Japanese Flag",
+    "region": "East Asia",
+    "status": "Parlamentary-based democracy with a constitutional monarch."
+  },
+  {
+    "name": "Socialist Republic of Vietnam",
+    "short-name": "Vietnam",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1920px-Flag_of_Vietnam.svg.png",
+    "flag-alt": "Vietnamese Flag",
+    "region": "Southeast Asia",
+    "status": "One-party Marxist-Leninist Socialist  (Or alternively, communist) republic."
+  },
+  {
+    "name": "Malaysia",
+    "short-name": "Malaysia",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/2560px-Flag_of_Malaysia.svg.png",
+    "flag-alt": "Malaysian Flag",
+    "region": "Southeast Asia",
+    "status": "Parlamentary-based democracy with an elected constitutional monarch."
+  },
+  {
+    "name": "Kingdom of Bhutan",
+    "short-name": "Bhutan",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1920px-Flag_of_Bhutan.svg.png",
+    "flag-alt": "Bhutanese Flag",
+    "region": "South Asia",
+    "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power."
+  },
+  {
+    "name": "Kingdom of Tonga",
+    "short-name": "Tonga",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/2560px-Flag_of_Tonga.svg.png",
+    "flag-alt": "Tongan Flag",
+    "region": "Oceania (Polynesia)",
+    "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power."
+  },
+  {
+    "name": "Republic of Moldova",
+    "short-name": "Moldova",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/2560px-Flag_of_Moldova.svg.png",
+    "flag-alt": "Moldovan Flag",
+    "region": "Eastern Europe",
+    "status": "Parlamentary-based democratic republic with a ceremonial president."
+  },
+  {
+    "name": "Pridnestrovian Moldavian Republic",
+    "short-name": "Transnistria",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Transnistria_%28state%29.svg/2560px-Flag_of_Transnistria_%28state%29.svg.png",
+    "flag-alt": "Transnistrian Flag",
+    "region": "Eastern Europe",
+    "status": "Unrecognized Russian puppet state that is recognized as a part of Moldova."
+  },
+  {
+    "name": "Russian Federation",
+    "short-name": "Russia",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1920px-Flag_of_Russia.svg.png",
+    "flag-alt": "Russian Flag",
+    "region": "Eastern Europe and North Asia",
+    "status": "Dual-exective democratic republic under a fascist dictatorship."
+  },
+  {
+    "name": "Georgia",
+    "short-name": "Georgia",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1920px-Flag_of_Georgia.svg.png",
+    "flag-alt": "Georgian Flag",
+    "region": "Eastern Europe and West Asia",
+    "status": "Parlamentary-based democratic republic with a ceremonial president."
+  },
+  {
+    "name": "Principality of Sealand",
+    "short-name": "Sealand",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Sealand.svg/1920px-Flag_of_Sealand.svg.png",
+    "flag-alt": "Sealander Flag",
+    "region": "Northern Europe (British Isles)",
+    "status": "Unrecognized micronation off the southeastern coast of the United Kingdom (specifically, England)."
+  },
+  {
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "short-name": "United Kingdom",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/250px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
+    "flag-alt": "British Flag",
+    "region": "Northern Europe (British Isles)",
+    "status": "Parlamentary-based democracy with a constitutional monarch."
+  },
+  {
+    "name": "Republic of Ireland",
+    "short-name": "Ireland",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/2560px-Flag_of_Ireland.svg.png",
+    "flag-alt": "Irish Flag",
+    "region": "Northern Europe (British Isles)",
+    "status": "Parlamentary-based democratic republic with a ceremonial president."
+  },
+  {
+    "name": "Republic of Molossia",
+    "short-name": "Molossia",
+    "flag-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_the_Republic_of_Molossia.svg/1920px-Flag_of_the_Republic_of_Molossia.svg.png",
+    "flag-alt": "Molossian Flag",
+    "region": "North America",
+    "status": "Unrecognized humorous micronation inside the State of Nevada in the United States of America."
+  },
+  {
+    "name": "",
+    "short-name": "",
+    "flag-url": "",
+    "flag-alt": "",
+    "region": "Everywhere",
+    "status": ""
+  },
+  {
+    "name": "",
+    "short-name": "",
+    "flag-url": "",
+    "flag-alt": "",
+    "region": "Everywhere",
+    "status": ""
+  }
+]

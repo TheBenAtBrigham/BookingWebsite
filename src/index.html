@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <canvas id="tutorial" width="150" height="150"></canvas>
+      <button onclick="getLocation()">Try It</button>
+
+      <p id="demo"></p>
+      <script>
+        function draw() {
+          const canvas = document.getElementById("tutorial");
+          if (canvas.getContext) {
+            const ctx = canvas.getContext("2d");
+          }
+        }
+        window.addEventListener("load", draw);
+      </script>
+
+      <div class="scroll-bar">
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/2560px-Flag_of_Moldova.svg.png"
+            alt="Moldovan Flag"
+          />
+          <p>Moldova</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Transnistria_%28state%29.svg/2560px-Flag_of_Transnistria_%28state%29.svg.png"
+            alt="Transnistrian Flag"
+          />
+          <p>Transnistria</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"
+            alt="American Flag"
+          />
+          <p>United States</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1920px-Flag_of_the_Republic_of_China.svg.png"
+            alt="Taiwanese Flag"
+          />
+          <p>Taiwan</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1920px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+            alt="Chinese Flag"
+          />
+          <p>China</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Sealand.svg/1920px-Flag_of_Sealand.svg.png"
+            alt="Sealander Flag"
+          />
+          <p>Sealand</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_the_Republic_of_Molossia.svg/1920px-Flag_of_the_Republic_of_Molossia.svg.png"
+            alt="Molossian Flag"
+          />
+          <p>Molossia</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/2560px-Flag_of_Canada_%28Pantone%29.svg.png"
+            alt="Canadian Flag"
+          />
+          <p>Canada</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_the_New_California_Republic.svg/1920px-Flag_of_the_New_California_Republic.svg.png"
+            alt="New Californian Flag"
+          />
+          <p>California</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1920px-Flag_of_Mexico.svg.png"
+            alt="Mexican Flag"
+          />
+          <p>Mexico</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1920px-Flag_of_Russia.svg.png"
+            alt="Russian Flag"
+          />
+          <p>Russia</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/1280px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png"
+            alt="Catholic Flag"
+          />
+          <p>Vatican City</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/1280px-Flag_of_Switzerland_%28Pantone%29.svg.png"
+            alt="Swiss Flag"
+          />
+          <p>Switzerland</p></a
+        >
+        <a
+          ><img
+            class="flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1920px-Flag_of_Georgia.svg.png"
+            alt="Georgian Flag"
+          />
+          <p>Georgia</p></a
+        >
+
+        <button><i class="arrow up"></i></button>
+      </div>
+    </main>
+    <footer>
+      <div class>Copyright Moi.</div>
+      <div class="socials">
+        <a href="https://bsky.app/"
+          ><img
+            class="white"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1280px-Bluesky_Logo.svg.png"
+            alt="Bluesky_Logo"
+        /></a>
+        <a href="https://facebook.com/"
+          ><img
+            class=""
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1280px-2023_Facebook_icon.svg.png"
+            alt="Facebook_Logo"
+        /></a>
+        <a href="https://instagram.com/"
+          ><img
+            class=""
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1280px-Instagram_logo_2022.svg.png"
+            alt="Instagram_Logo"
+        /></a>
+        <a href="https://x.com/"
+          ><img
+            class="white"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1280px-X_logo_2023.svg.png"
+            alt="Twitter_Logo"
+        /></a>
+        <canvas id="black" width="25" height="25">
+          <a href="https://x.com/"
+            ><img
+              class="white"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1280px-X_logo_2023.svg.png"
+              alt="Twitter_Logo"
+          /></a>
+        </canvas>
+      </div>
+    </footer>
+    <!--script src="./flag.js" type="module"></script-->
+    <script>
+      async function getData() {
+        const url =
+          "https://github.com/TheBenAtBrigham/BookingWebsite/blob/master/countries.json";
+        try {
+          const response = await fetch(url);
+          if (!response.ok) {
+            throw new Error(`Response status: ${response.status}`);
+          }
+
+          const json = await response.json();
+          console.log(json);
+        } catch (error) {
+          console.error(error.message);
+        }
+      }
+
+      getData();
+
+      const canvas = document.getElementById("black");
+
+      if (canvas.getContext) {
+        const ctx = canvas.getContext("2d");
+        // drawing code here
+      } else {
+        // canvas-unsupported code here
+      }
+    </script>
+  </body>
+</html>

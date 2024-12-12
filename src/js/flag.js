@@ -1,10 +1,11 @@
 //import jsonData from 'countries.json' assert {type : 'json'};
-
+//npm start run
 //console.log(jsonData);
 //JSON.parse();
 
 async function getData() {
-  const url = "https://github.com/TheBenAtBrigham/BookingWebsite/blob/master/countries.json";
+  const url =
+    "https://github.com/TheBenAtBrigham/BookingWebsite/blob/master/countries.json";
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -29,6 +30,9 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  myElement.innerHTML = "Latitude: " + position.coords.latitude +
-  "<br>Longitude: " + position.coords.longitude;
+  myElement.innerHTML =
+    "Latitude: " +
+    position.coords.latitude +
+    "<br>Longitude: " +
+    position.coords.longitude;
 }
