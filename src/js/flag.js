@@ -1,7 +1,7 @@
 
 //npm install cors
 //npm start run
-const link = './src/js/flag.js'
+const link = './src/countries.json'
 
 async function loadAndStringThisJSON(filePath)
 { try
