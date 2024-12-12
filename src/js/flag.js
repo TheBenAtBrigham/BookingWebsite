@@ -1,7 +1,6 @@
 
 //npm install cors
 //npm start run
-//const link = './src/countries.json'
 
 async function loadAndStringThisJSON(filePath)
 { try
@@ -26,7 +25,7 @@ loadAndStringThisJSON('./src/countries.json')
         }
 });
 
-const str = loadAndStringThisJSON
+const str = loadAndStringThisJSON('./src/countries.json')
 
 var rows = '';
 var jsonData = str;
