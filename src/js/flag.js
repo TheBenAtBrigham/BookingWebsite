@@ -29,7 +29,7 @@ loadAndStringThisJSON('./src/countries.json')
 const str = loadAndStringThisJSON
 
 var rows = '';
-var jsonData = JSON.stringify(str);
+var jsonData = str;
 for (var i = 0; i < jsonData.length; i++) {
   var obj = jsonData[i];
   console.log(obj.name);
