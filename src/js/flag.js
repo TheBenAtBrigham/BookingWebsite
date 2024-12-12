@@ -3,6 +3,7 @@
 //npm start run
 
 fetch('./src/countries.json') // Path to your JSON file
+
   .then(response => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
