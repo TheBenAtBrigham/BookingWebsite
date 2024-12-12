@@ -1,7 +1,7 @@
 
 //npm install cors
 //npm start run
-const link = './src/countries.json'
+//const link = './src/countries.json'
 
 async function loadAndStringThisJSON(filePath)
 { try
@@ -19,7 +19,7 @@ async function loadAndStringThisJSON(filePath)
     }
 }
 
-loadAndStringThisJSON(link)
+loadAndStringThisJSON('./src/countries.json')
     .then(jsonString => {
         if (jsonString) {
             console.log(jsonString);
@@ -27,7 +27,7 @@ loadAndStringThisJSON(link)
 });
 
 
-fetch(link) // Path to your JSON file
+fetch('./src/countries.json') // Path to your JSON file
 
   .then(response => {
     if (!response.ok) {
