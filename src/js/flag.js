@@ -28,7 +28,7 @@ async function loadAndStringThisJSON(filePath)
 const str = loadAndStringThisJSON('./src/countries.json')
 
 var rows = '';
-for (var i = 0; i < jsonData.length; i++) {
+for (var i = 0; i < str[i].length; i++) {
   console.log(str[i].short, str[i].url);
   //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
 }
