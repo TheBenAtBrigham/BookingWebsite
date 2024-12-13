@@ -2,21 +2,6 @@
 //npm install cors
 //npm start run
 
-async function loadAndStringThisJSON(filePath)
-{ try
-  {
-  const response = await fetch(filePath);
-  if (!response.ok){
-    throw new Error(`HTTP error! status: ${response.status}`);
-  }
-  const jsonData = await response.json();
-        const jsonString = JSON.stringify(jsonData);
-        return jsonString;
-    } catch (error) {
-        console.error("Could not read or stringify the file:", error);
-        return null;
-    }
-}
 
 async function loadThisJSON(filePath)
 { try
@@ -56,8 +41,7 @@ async function addCountryList(countryString)
   scrollBar.appendChild(anchor);
 }
 
-//var rows = '';
-const str = loadAndStringThisJSON('./src/countries.json');
+
 
 const myArray = loadThisJSON('./src/countries.json')
 console.log(myArray);
@@ -91,6 +75,7 @@ anchor.appendChild(countryName);
 
 scrollBar.appendChild(anchor);
 
+//most important function for pulling JSON information...
 fetch('./src/countries.json') // Path to your JSON file
 
   .then(response => {
@@ -109,6 +94,7 @@ fetch('./src/countries.json') // Path to your JSON file
 
     for (let i = 0; i < data.length; i++) {
       countryNames.push(data[i].short); // Accessing the 'size' value and pushing it to the array
+      addCountryList(data[i]);
     }
     console.log(countryNames); 
 
