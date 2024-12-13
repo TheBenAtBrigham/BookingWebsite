@@ -28,15 +28,33 @@ async function loadAndStringThisJSON(filePath)
 const str = loadAndStringThisJSON('./src/countries.json')
 
 var rows = '';
-var jsonData = str;
 for (var i = 0; i < jsonData.length; i++) {
-  var obj = jsonData[i];
-  console.log(obj.short, obj.url);
+  console.log(str[i].short, str[i].url);
   //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
 }
 //document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
 
 //get and set paragraphs and images
+async function addCountryList(countryString)
+{
+  const scrollBar = document.querySelector(".scroll-bar");
+  const anchor = document.createElement('a');
+  const image = document.createElement('img');
+  const countryName = document.createElement('p');
+
+  image.classList.add('flag')
+  image.setAttribute("src","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/2560px-Flag_of_Liberia.svg.png")
+  image.setAttribute("alt","Liberian Flag");
+
+  countryName.textContent = "Liberia"
+
+  anchor.appendChild(image);
+  anchor.appendChild(countryName);
+
+  scrollBar.appendChild(anchor);
+}
+
+
 const scrollBar = document.querySelector(".scroll-bar");
 const anchor = document.createElement('a');
 const image = document.createElement('img');
