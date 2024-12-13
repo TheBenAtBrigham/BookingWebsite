@@ -49,9 +49,14 @@ async function addCountryList(countryString)
 
 //var rows = '';
 const str = loadAndStringThisJSON('./src/countries.json')
-for (var i = 0; i < str.length; i++) {
-  console.log(str[i].short, str[i].url);
-  addCountryList(str[i]);
+
+const myArray = JSON.parse(str);
+for (var i = 0; i < myArray.length; i++) {
+  console.log(myArray[i]);
+  console.log(myArray[i]);
+  console.log(myArray[i][1]);
+  console.log(myArray[i].short, myArray[i].url);
+  addCountryList(myArray[i]);
   //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
 }
 //document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
