@@ -57,11 +57,7 @@ async function addCountryList(countryString)
 }
 
 //var rows = '';
-const str = loadAndStringThisJSON('./src/countries.json')
-var jSon = JSON.parse(str);
-console.log(jSon);
-
-
+const str = loadAndStringThisJSON('./src/countries.json');
 
 const myArray = loadThisJSON('./src/countries.json')
 console.log(myArray);
