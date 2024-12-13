@@ -18,12 +18,21 @@ async function loadAndStringThisJSON(filePath)
     }
 }
 
-/*loadAndStringThisJSON('./src/countries.json')
-    .then(jsonString => {
-        if (jsonString) {
-            console.log(jsonString);
-        }
-});*/
+async function loadThisJSON(filePath)
+{ try
+  {
+  const response = await fetch(filePath);
+  if (!response.ok){
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  const jsonData = await response.json();
+        const jsonArray = jsonData;
+        return jsonArray;
+    } catch (error) {
+        console.error("Could not read or stringify the file:", error);
+        return null;
+    }
+}
 
 
 
@@ -50,7 +59,8 @@ async function addCountryList(countryString)
 //var rows = '';
 const str = loadAndStringThisJSON('./src/countries.json')
 
-const myArray = JSON.parse(str);
+const myArray = loadThisJSON('./src/countries.json')
+
 for (var i = 0; i < myArray.length; i++) {
   console.log(myArray[i]);
   console.log(myArray[i]);
