@@ -101,7 +101,7 @@ fetch('./src/countries.json') // Path to your JSON file
   })
   .then(data => {
     // Work with your JSON data here
-    console.log(data);
+    console.log(data.name);
     // Access data elements like data.key1, data.key2, etc.
   })
   .catch(error => {
