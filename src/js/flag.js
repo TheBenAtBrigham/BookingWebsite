@@ -27,12 +27,6 @@ async function loadAndStringThisJSON(filePath)
 
 const str = loadAndStringThisJSON('./src/countries.json')
 
-var rows = '';
-for (var i = 0; i < str[i].length; i++) {
-  console.log(str[i].short, str[i].url);
-  //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
-}
-//document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
 
 //get and set paragraphs and images
 async function addCountryList(countryString)
@@ -43,8 +37,8 @@ async function addCountryList(countryString)
   const countryName = document.createElement('p');
 
   image.classList.add('flag')
-  image.setAttribute("src","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/2560px-Flag_of_Liberia.svg.png")
-  image.setAttribute("alt","Liberian Flag");
+  image.setAttribute("src",countryString.url)
+  image.setAttribute("alt",countryString.alt);
 
   countryName.textContent = "Liberia"
 
@@ -53,6 +47,15 @@ async function addCountryList(countryString)
 
   scrollBar.appendChild(anchor);
 }
+
+//var rows = '';
+for (var i = 0; i < str[i].length; i++) {
+  console.log(str[i].short, str[i].url);
+  addCountryList(str[i]);
+  //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
+}
+//document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
+
 
 
 const scrollBar = document.querySelector(".scroll-bar");
