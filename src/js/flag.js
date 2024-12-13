@@ -33,7 +33,7 @@ async function addCountryList(countryString)
   image.setAttribute("src",countryString.url)
   image.setAttribute("alt",countryString.alt);
 
-  countryName.textContent = "Liberia"
+  countryName.textContent = countryString.short
 
   anchor.appendChild(image);
   anchor.appendChild(countryName);
@@ -47,33 +47,7 @@ const myArray = loadThisJSON('./src/countries.json')
 console.log(myArray);
 
 
-for (var i = 0; i < myArray.length; i++) {
-  console.log(myArray[i]);
-  console.log(myArray[i]);
-  console.log(myArray[i][1]);
-  console.log(myArray[i].short, myArray[i].url);
-  addCountryList(myArray[i]);
-  //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"
-}
-//document.getElementById("demo").innerHTML = "<tr><th>Id</th><th>Name</th></tr>" + rows;
 
-
-
-const scrollBar = document.querySelector(".scroll-bar");
-const anchor = document.createElement('a');
-const image = document.createElement('img');
-const countryName = document.createElement('p');
-
-image.classList.add('flag')
-image.setAttribute("src","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/2560px-Flag_of_Liberia.svg.png")
-image.setAttribute("alt","Liberian Flag");
-
-countryName.textContent = "Liberia"
-
-anchor.appendChild(image);
-anchor.appendChild(countryName);
-
-scrollBar.appendChild(anchor);
 
 //most important function for pulling JSON information...
 fetch('./src/countries.json') // Path to your JSON file
