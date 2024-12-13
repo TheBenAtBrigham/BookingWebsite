@@ -101,7 +101,17 @@ fetch('./src/countries.json') // Path to your JSON file
   })
   .then(data => {
     // Work with your JSON data here
-    console.log(data.name);
+    const names = data.map(item => item.name);
+    console.log(names);
+
+    const countryNames = [];
+
+
+    for (let i = 0; i < data.length; i++) {
+      countryNames.push(data[i].short); // Accessing the 'size' value and pushing it to the array
+    }
+    console.log(countryNames); 
+
     // Access data elements like data.key1, data.key2, etc.
   })
   .catch(error => {
