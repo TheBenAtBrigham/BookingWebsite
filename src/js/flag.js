@@ -25,7 +25,6 @@ async function loadAndStringThisJSON(filePath)
         }
 });*/
 
-const str = loadAndStringThisJSON('./src/countries.json')
 
 
 //get and set paragraphs and images
@@ -49,7 +48,8 @@ async function addCountryList(countryString)
 }
 
 //var rows = '';
-for (var i = 0; i < str[i].length; i++) {
+const str = loadAndStringThisJSON('./src/countries.json')
+for (var i = 0; i < str.length; i++) {
   console.log(str[i].short, str[i].url);
   addCountryList(str[i]);
   //rows += "<tr><td>" + obj.id +"</td><td>" + obj.name +"</td></tr>"

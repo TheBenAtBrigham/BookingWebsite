@@ -221,6 +221,22 @@
     "status": "Unrecognized humorous micronation inside the State of Nevada in the United States of America."
   },
   {
+    "name": "Republic of Liberia",
+    "short": "Liberia",
+    "url": "https://en.wikipedia.org/wiki/Liberia#/media/File:Flag_of_Liberia.svg",
+    "alt": "Liberian Flag",
+    "region": "West Africa",
+    "status": "Presidential democratic republic."
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "short": "Syria",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_the_Syrian_revolution.svg/1920px-Flag_of_the_Syrian_revolution.svg.png",
+    "alt": "Syrian Flag",
+    "region": "West Asia",
+    "status": "Republic under a provisional government after the overthrow of the Assadist Hereditary Dictatorship."
+  },
+  {
     "name": "",
     "short": "",
     "url": "",
