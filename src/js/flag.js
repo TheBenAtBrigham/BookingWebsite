@@ -64,6 +64,7 @@ console.log(jSon);
 
 
 const myArray = loadThisJSON('./src/countries.json')
+console.log(myArray);
 
 
 for (var i = 0; i < myArray.length; i++) {
