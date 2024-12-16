@@ -1,9 +1,16 @@
 body{
   margin:0px;
+  background-color: #fff8f0;
 }
 header {
   background-color: #ff8811;
   width: 100%;
+  img {
+    height: 90px;
+    width: auto;
+    padding:25px;
+  }
+  
 }
 
 .flag {
@@ -20,7 +27,7 @@ div.line
 }
 
 div.place-info {
-  background-color: #0073ff;
+  background-color: #f4d06f;
   padding: 20px;
   margin: 2px;
   color: white;
@@ -29,7 +36,7 @@ div.place-info {
 
 
 div.scroll-bar {
-  background-color: #0073ff;
+  background-color: #f4d06f;
   overflow: auto;
   white-space: nowrap;
 }
@@ -115,6 +122,11 @@ footer {
 footer a {
   /*border: 10px;*/
   color: white;
+  text-decoration:none;
+}
+footer a:visited
+{
+  text-decoration:none;
 }
 footer img {
   height: 25px;
