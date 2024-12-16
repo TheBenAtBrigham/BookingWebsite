@@ -30,10 +30,12 @@ async function addCountryList(countryString)
   const countryName = document.createElement('p');
 
   image.classList.add('flag')
-  image.setAttribute("src",countryString.url)
+  image.setAttribute("src",countryString.url);
   image.setAttribute("alt",countryString.alt);
 
-  countryName.textContent = countryString.short
+  anchor.setAttribute("href","");
+
+  countryName.textContent = countryString.short;
 
   anchor.appendChild(image);
   anchor.appendChild(countryName);

@@ -1,5 +1,9 @@
+body{
+  margin:0px;
+}
 header {
   background-color: #ff8811;
+  width: 100%;
 }
 
 .flag {
@@ -9,6 +13,20 @@ header {
 
   /*box-shadow: 10px 5px 5px black;*/
 }
+
+div.line
+{
+  border-bottom: 1px solid black;
+}
+
+div.place-info {
+  background-color: #0073ff;
+  padding: 20px;
+  margin: 2px;
+  color: white;
+}
+
+
 
 div.scroll-bar {
   background-color: #0073ff;
@@ -95,7 +113,8 @@ footer {
   padding: 20px;
 }
 footer a {
-  border: 10px;
+  /*border: 10px;*/
+  color: white;
 }
 footer img {
   height: 25px;

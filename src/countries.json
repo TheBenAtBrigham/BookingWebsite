@@ -37,8 +37,8 @@
     "status": "Dual-exective democratic republic."
   },
   {
-    "name": "Italy",
-    "short": "Italian Republic",
+    "name": "Italian Republic ",
+    "short": "Italy",
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1920px-Flag_of_Italy.svg.png",
     "alt": "Italian Flag",
     "region": "Southern and western Europe",
@@ -107,6 +107,14 @@
     "alt": "Chinese Flag",
     "region": "East Asia",
     "status": "One-party Marxist-Leninist Socialist (Or alternively, communist) republic"
+  },
+  {
+    "name": "State of Mongolia",
+    "short": "Mongolia",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2560px-Flag_of_Mongolia.svg.png",
+    "alt": "Mongolian Flag",
+    "region": "East Asia",
+    "status": "Dual-exective democratic republic."
   },
   {
     "name": "State of Japan",
@@ -235,14 +243,6 @@
     "alt": "Syrian Flag",
     "region": "West Asia",
     "status": "Republic under a provisional government after the overthrow of the Assadist Hereditary Dictatorship."
-  },
-  {
-    "name": "",
-    "short": "",
-    "url": "",
-    "alt": "",
-    "region": "Everywhere",
-    "status": ""
   },
   {
     "name": "",
