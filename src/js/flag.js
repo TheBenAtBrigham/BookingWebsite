@@ -63,8 +63,7 @@ fetch('./src/countries.json') // Path to your JSON file
   })
   .then(data => {
     // Work with your JSON data here
-    const names = data.map(item => item.name);
-    console.log(names);
+    //const names = data.map(item => item.name);
 
     const countryNames = [];
 

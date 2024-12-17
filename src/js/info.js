@@ -30,11 +30,12 @@ async function countryDisplayInfo(countryString)
   image.setAttribute("alt",countryString.alt);
 
   for (let i = 0; i < countryString.img.length; i++){
-    let countryImage = document.createElement('img');
-    countryImage.classList.add('flag');
-    countryImage.setAttribute("src",countryImage[i].url);
-    countryImage.setAttribute("alt",countryImage[i].alt);
-    line1.appendChild(countryImage);
+    //let countryImage = document.createElement('img');
+    console.log(countryString.img[i])
+    //countryImage.classList.add('flag');
+    //countryImage.setAttribute("src",countryImage[i].url);
+    //countryImage.setAttribute("alt",countryImage[i].alt);
+    //line1.appendChild(countryImage);
   }
 
   //set information for
