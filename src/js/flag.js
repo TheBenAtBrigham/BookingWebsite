@@ -32,7 +32,7 @@ async function addCountryList(countryString)
   image.setAttribute("src",countryString.url);
   image.setAttribute("alt",countryString.alt);
 
-  anchor.setAttribute("href","./info.html");
+  anchor.setAttribute("href",`./info.html?country="${countryString.short}"`);
 
   countryName.textContent = countryString.short;
 

@@ -1,7 +1,7 @@
 [
   {
     "name": "United States of America",
-    "short": "United States",
+    "short": "United_States",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
     "alt": "American Flag",
     "region": "North America and Oceania",
@@ -62,7 +62,7 @@
   },
   {
     "name": "Vatican City State",
-    "short": "Vatican City",
+    "short": "Vatican_City",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/1280px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
     "alt": "Catholic Flag",
     "region": "Southern and western Europe",
@@ -78,7 +78,7 @@
   },
   {
     "name": "Kingdom of Saudi Arabia",
-    "short": "Saudi Arabia",
+    "short": "Saudi_Arabia",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1920px-Flag_of_Saudi_Arabia.svg.png",
     "alt": "Saudi Arabian Flag",
     "region": "West Asia (Arabian Peninsula)",
@@ -206,7 +206,7 @@
   },
   {
     "name": "United Kingdom of Great Britain and Northern Ireland",
-    "short": "United Kingdom",
+    "short": "United_Kingdom",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/250px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "alt": "British Flag",
     "region": "Northern Europe (British Isles)",

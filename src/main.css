@@ -139,3 +139,7 @@ footer img {
   filter: brightness(0) invert(1);
   z-index: 5;
 }
+div.social
+{
+  padding:2px;
+}
