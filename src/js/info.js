@@ -30,7 +30,7 @@ async function countryDisplayInfo(countryString)
   image.setAttribute("alt",countryString.alt);
 
   for (let i = 0; i < countryString.img.length; i++){
-    countryImage = document.createElement('img');
+    let countryImage = document.createElement('img');
     countryImage.classList.add('flag');
     countryImage.setAttribute("src",countryImage[i].url);
     countryImage.setAttribute("alt",countryImage[i].alt);
