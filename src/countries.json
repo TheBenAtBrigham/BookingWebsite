@@ -7,6 +7,7 @@
     "alt": "American Flag",
     "region": "North America and Oceania",
     "status": "Presidential democratic republic.",
+    "info": "",
     "cities": [
       {
         "city-name": "New York City"
@@ -20,7 +21,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/2560px-Flag_of_Canada_%28Pantone%29.svg.png",
     "alt": "Canadian Flag",
     "region": "North America",
-    "status": "Parlamentary-based democracy with a constitutional monarch."
+    "status": "Parlamentary-based democracy with a constitutional monarch.",
+    "info": "This country is the second largest country in the world most of which vast forested wilderness, most of the country's population living along the U.S. and Canadian border. This country is one of the freest places in the world."
   },
   {
     "name": "United Mexican States",
@@ -29,7 +31,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1920px-Flag_of_Mexico.svg.png",
     "alt": "Mexican Flag",
     "region": "North America (Central America)",
-    "status": "Presidential democratic republic."
+    "status": "Presidential democratic republic.",
+    "info": ""
   },
   {
     "name": "French Republic",
@@ -38,7 +41,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1920px-Flag_of_France.svg.png",
     "alt": "French Flag",
     "region": "Western Europe (Globally if including Overseas Territories)",
-    "status": "Dual-exective democratic republic."
+    "status": "Dual-exective democratic republic.",
+    "info": ""
   },
   {
     "name": "Italian Republic ",
@@ -47,7 +51,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1920px-Flag_of_Italy.svg.png",
     "alt": "Italian Flag",
     "region": "Southern and western Europe",
-    "status": "Parlamentary-based democratic republic with a ceremonial president."
+    "status": "Parlamentary-based democratic republic with a ceremonial president.",
+    "info": ""
   },
   {
     "name": "Hellenic Republic",
@@ -56,7 +61,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1920px-Flag_of_Greece.svg.png",
     "alt": "Greek Flag",
     "region": "Southeast Europe and West Asia",
-    "status": "Parlamentary-based democratic republic with a ceremonial president."
+    "status": "Parlamentary-based democratic republic with a ceremonial president.",
+    "info": ""
   },
   {
     "name": "Republic of Türkiye",
@@ -65,7 +71,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1920px-Flag_of_Turkey.svg.png",
     "alt": "Turkish Flag",
     "region": "Southeast Europe and West Asia",
-    "status": "Presidential democratic republic."
+    "status": "Presidential democratic republic.",
+    "info": ""
   },
   {
     "name": "Vatican City State",
@@ -74,7 +81,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/1280px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
     "alt": "Catholic Flag",
     "region": "Southern and western Europe",
-    "status": "Theocratic absolute monarchy with a monarch (The Pope) elected by Cardinals in the Catholic Church"
+    "status": "Theocratic absolute monarchy with a monarch (The Pope) elected by Cardinals in the Catholic Church",
+    "info": ""
   },
   {
     "name": "Swiss Confederation",
@@ -83,7 +91,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/1280px-Flag_of_Switzerland_%28Pantone%29.svg.png",
     "alt": "Swiss Flag",
     "region": "West-central Europe",
-    "status": "Assembly-independent directorial democratic republic"
+    "status": "Assembly-independent directorial democratic republic",
+    "info": ""
   },
   {
     "name": "Kingdom of Saudi Arabia",
@@ -92,7 +101,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1920px-Flag_of_Saudi_Arabia.svg.png",
     "alt": "Saudi Arabian Flag",
     "region": "West Asia (Arabian Peninsula)",
-    "status": "Absolute monarchy based on Shia Islamic nationalist principles."
+    "status": "Absolute monarchy based on Shia Islamic nationalist principles.",
+    "info": ""
   },
   {
     "name": "Commonwealth of Australia",
@@ -101,7 +111,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/2560px-Flag_of_Australia_%28converted%29.svg.png",
     "alt": "Australian Flag",
     "region": "Oceania",
-    "status": "Parlamentary-based democracy with a constitutional monarch."
+    "status": "Parlamentary-based democracy with a constitutional monarch.",
+    "info": ""
   },
   {
     "name": "Republic of China",
@@ -110,7 +121,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1920px-Flag_of_the_Republic_of_China.svg.png",
     "alt": "Taiwanese Flag",
     "region": "East Asia",
-    "status": "Dual-exective democratic republic with a complex relationship with the UN despite being a UN founding state."
+    "status": "Dual-exective democratic republic with a complex relationship with the UN despite being a UN founding state.",
+    "info": ""
   },
   {
     "name": "People's Republic of China",
@@ -119,7 +131,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1920px-Flag_of_the_People%27s_Republic_of_China.svg.png",
     "alt": "Chinese Flag",
     "region": "East Asia",
-    "status": "One-party Marxist-Leninist Socialist (Or alternively, communist) republic"
+    "status": "One-party Marxist-Leninist Socialist (Or alternively, communist) republic",
+    "info": ""
   },
   {
     "name": "State of Mongolia",
@@ -128,7 +141,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2560px-Flag_of_Mongolia.svg.png",
     "alt": "Mongolian Flag",
     "region": "East Asia",
-    "status": "Dual-exective democratic republic."
+    "status": "Dual-exective democratic republic.",
+    "info": ""
   },
   {
     "name": "State of Japan",
@@ -137,7 +151,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1920px-Flag_of_Japan.svg.png",
     "alt": "Japanese Flag",
     "region": "East Asia",
-    "status": "Parlamentary-based democracy with a constitutional monarch."
+    "status": "Parlamentary-based democracy with a constitutional monarch.",
+    "info": ""
   },
   {
     "name": "Socialist Republic of Vietnam",
@@ -146,7 +161,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1920px-Flag_of_Vietnam.svg.png",
     "alt": "Vietnamese Flag",
     "region": "Southeast Asia",
-    "status": "One-party Marxist-Leninist Socialist  (Or alternively, communist) republic."
+    "status": "One-party Marxist-Leninist Socialist  (Or alternively, communist) republic.",
+    "info": ""
   },
   {
     "name": "Malaysia",
@@ -155,7 +171,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/2560px-Flag_of_Malaysia.svg.png",
     "alt": "Malaysian Flag",
     "region": "Southeast Asia",
-    "status": "Parlamentary-based democracy with an elected constitutional monarch."
+    "status": "Parlamentary-based democracy with an elected constitutional monarch.",
+    "info": ""
   },
   {
     "name": "Kingdom of Bhutan",
@@ -164,7 +181,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1920px-Flag_of_Bhutan.svg.png",
     "alt": "Bhutanese Flag",
     "region": "South Asia",
-    "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power."
+    "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power.",
+    "info": ""
   },
   {
     "name": "Kingdom of Tonga",
@@ -173,7 +191,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/2560px-Flag_of_Tonga.svg.png",
     "alt": "Tongan Flag",
     "region": "Oceania (Polynesia)",
-    "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power."
+    "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power.",
+    "info": ""
   },
   {
     "name": "Republic of Moldova",
@@ -182,7 +201,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/2560px-Flag_of_Moldova.svg.png",
     "alt": "Moldovan Flag",
     "region": "Eastern Europe",
-    "status": "Parlamentary-based democratic republic with a ceremonial president."
+    "status": "Parlamentary-based democratic republic with a ceremonial president.",
+    "info": ""
   },
   {
     "name": "Pridnestrovian Moldavian Republic",
@@ -191,7 +211,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Transnistria_%28state%29.svg/2560px-Flag_of_Transnistria_%28state%29.svg.png",
     "alt": "Transnistrian Flag",
     "region": "Eastern Europe",
-    "status": "Unrecognized Russian puppet state that is recognized as a part of Moldova."
+    "status": "Unrecognized Russian puppet state that is recognized as a part of Moldova.",
+    "info": "This unrecognized \"country\" is a small sliver of land east of the Dnister River. It was formed as the USSR was collapsing and Soviet Republics were declaring independence, among which was the Moldovian SSR; The ethnic Russian minority in the east desired to remain with the USSR. It is recognized as part of Moldova by the international community"
   },
   {
     "name": "Russian Federation",
@@ -200,7 +221,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1920px-Flag_of_Russia.svg.png",
     "alt": "Russian Flag",
     "region": "Eastern Europe and North Asia",
-    "status": "Dual-exective democratic republic under a fascist dictatorship."
+    "status": "Dual-exective democratic republic under a fascist dictatorship.",
+    "info": ""
   },
   {
     "name": "Republic of Belarus",
@@ -209,7 +231,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/2560px-Flag_of_Belarus.svg.png",
     "alt": "Belarusian Flag",
     "region": "Eastern Europe",
-    "status": "Dual-exective democratic republic under a fascist dictatorship."
+    "status": "Dual-exective democratic republic under a fascist dictatorship.",
+    "info": ""
   },
   {
     "name": "Georgia",
@@ -218,7 +241,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1920px-Flag_of_Georgia.svg.png",
     "alt": "Georgian Flag",
     "region": "Eastern Europe and West Asia",
-    "status": "Parlamentary-based democratic republic with a ceremonial president."
+    "status": "Parlamentary-based democratic republic with a ceremonial president.",
+    "info": ""
   },
   {
     "name": "Principality of Sealand",
@@ -227,7 +251,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Sealand.svg/1920px-Flag_of_Sealand.svg.png",
     "alt": "Sealander Flag",
     "region": "Northern Europe (British Isles)",
-    "status": "Unrecognized micronation off the southeastern coast of the United Kingdom (specifically, England)."
+    "status": "Unrecognized micronation off the southeastern coast of the United Kingdom (specifically, England).",
+    "info": ""
   },
   {
     "name": "United Kingdom of Great Britain and Northern Ireland",
@@ -236,7 +261,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/250px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "alt": "ritish Flag",
     "region": "Northern Europe (British Isles)",
-    "status": "Parlamentary-based democracy with a constitutional monarch."
+    "status": "Parlamentary-based democracy with a constitutional monarch.",
+    "info": ""
   },
   {
     "name": "Republic of Ireland",
@@ -245,7 +271,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/2560px-Flag_of_Ireland.svg.png",
     "alt": "Irish Flag",
     "region": "Northern Europe (British Isles)",
-    "status": "Parlamentary-based democratic republic with a ceremonial president."
+    "status": "Parlamentary-based democratic republic with a ceremonial president.",
+    "info": ""
   },
   {
     "name": "Republic of Molossia",
@@ -254,7 +281,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_the_Republic_of_Molossia.svg/1920px-Flag_of_the_Republic_of_Molossia.svg.png",
     "alt": "Molossian Flag",
     "region": "North America",
-    "status": "Unrecognized humorous micronation inside the State of Nevada in the United States of America."
+    "status": "Unrecognized humorous micronation inside the State of Nevada in the United States of America.",
+    "info": ""
   },
   {
     "name": "Republic of Liberia",
@@ -263,7 +291,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/2560px-Flag_of_Liberia.svg.png",
     "alt": "Liberian Flag",
     "region": "West Africa",
-    "status": "Presidential democratic republic."
+    "status": "Presidential democratic republic.",
+    "info": ""
   },
   {
     "name": "Syrian Arab Republic",
@@ -272,7 +301,8 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_the_Syrian_revolution.svg/1920px-Flag_of_the_Syrian_revolution.svg.png",
     "alt": "Syrian Flag",
     "region": "West Asia",
-    "status": "Republic under a provisional government after the overthrow of the Assadist Hereditary Dictatorship."
+    "status": "Republic under a provisional government after the overthrow of the Assadist Hereditary Dictatorship.",
+    "info": ""
   },
   {
     "name": "",
@@ -280,6 +310,7 @@
     "url": "",
     "alt": "",
     "region": "Everywhere",
-    "status": ""
+    "status": "",
+    "info": ""
   }
 ]

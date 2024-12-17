@@ -29,7 +29,7 @@ async function countryDisplayInfo(countryString)
   countryName.textContent = countryString.name;
   countryStatus.textContent = `Political status: ${countryString.status}`;
   countryLoc.textContent = `Region: ${countryString.region}`;
-  countryInfo.textContent = "Info here..."
+  countryInfo.textContent = countryString.info;
 
   line1.appendChild(image);
   line1.appendChild(countryName);

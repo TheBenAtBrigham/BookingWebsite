@@ -118,10 +118,10 @@ div.scroll-bar img:hover {
 footer {
   background-color: #ff8811;
   padding: 20px;
+  color: white;
 }
 footer a {
   /*border: 10px;*/
-  color: white;
   text-decoration:none;
 }
 footer a:visited
@@ -139,6 +139,7 @@ footer img {
   filter: brightness(0) invert(1);
   z-index: 5;
 }
+div.copy
 div.social
 {
   padding:2px;
