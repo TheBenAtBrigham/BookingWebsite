@@ -34,10 +34,13 @@ async function countryDisplayInfo(countryString)
   line1.appendChild(image);
   line1.appendChild(countryName);
 
-  line2.appendChild(countryStatus, countryLoc);
+  line2.appendChild(countryLoc);
+  line2.appendChild(countryStatus);
   
 
-  placeInfo.appendChild(line1, line2, countryInfo);
+  placeInfo.appendChild(line1);
+  placeInfo.appendChild(line2);
+  placeInfo.appendChild(countryInfo);
 }
 
 
