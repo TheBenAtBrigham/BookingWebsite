@@ -9,10 +9,12 @@ async function countryDisplayInfo(countryString)
 
   const line1 = document.createElement("div");
   const line2 = document.createElement("div");
+  const line3 = document.createElement("div");
 
 
   line1.classList.add('line');
   line2.classList.add('line');
+  line3.classList.add('line');
 
   const image = document.createElement('img');
   const countryName = document.createElement('h1');
@@ -20,10 +22,20 @@ async function countryDisplayInfo(countryString)
   const countryLoc = document.createElement('p');
 
   const countryInfo = document.createElement('p');
-
+  
+  
+ 
   image.classList.add('flag');
   image.setAttribute("src",countryString.url);
   image.setAttribute("alt",countryString.alt);
+
+  for (let i = 0; i < countryString.img.length; i++){
+    countryImage = document.createElement('img');
+    countryImage.classList.add('flag');
+    countryImage.setAttribute("src",countryImage[i].url);
+    countryImage.setAttribute("alt",countryImage[i].alt);
+    line1.appendChild(countryImage);
+  }
 
   //set information for
   countryName.textContent = countryString.name;
@@ -41,6 +53,7 @@ async function countryDisplayInfo(countryString)
   placeInfo.appendChild(line1);
   placeInfo.appendChild(line2);
   placeInfo.appendChild(countryInfo);
+  placeInfo.appendChild(line3);
 }
 
 

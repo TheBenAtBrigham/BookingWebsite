@@ -22,7 +22,21 @@
     "alt": "Canadian Flag",
     "region": "North America",
     "status": "Parlamentary-based democracy with a constitutional monarch.",
-    "info": "This country is the second largest country in the world most of which vast forested wilderness, most of the country's population living along the U.S. and Canadian border. This country is one of the freest places in the world."
+    "info": "This country is the second largest country in the world most of which vast forested wilderness, most of the country's population living along the U.S. and Canadian border. This country is one of the freest places in the world.",
+    "img" : [
+      {
+        "url":"https://upload.wikimedia.org/wikipedia/commons/5/54/Mount_Edziza%2C_British_Columbia.jpg",
+        "alt":"Canadian Wild"
+      },
+      {
+        "url":"https://upload.wikimedia.org/wikipedia/commons/a/a8/CC_2022-06-18_193-Pano_%28cropped%29_01.jpg",
+        "alt":"Toronto"
+      },
+      {
+        "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wolverine_on_rock.jpg/1920px-Wolverine_on_rock.jpg",
+        "alt":"Wolverine"
+      }
+    ]
   },
   {
     "name": "United Mexican States",
