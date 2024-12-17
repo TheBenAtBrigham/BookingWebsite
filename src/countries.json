@@ -30,7 +30,7 @@
     "region": "North America",
     "status": "Parlamentary-based democracy with a constitutional monarch.",
     "category":"country",
-    "info": "This country is the second largest country in the world most of which vast forested wilderness, most of the country's population living along the U.S. and Canadian border. This country is one of the freest places in the world.",
+    "info": "This country is the second largest country in the world most of which vast forested wilderness, most of the country's population living along the U.S. and Canadian border. This country is one of the freest places in the world. Canada is very easy to travel to as long as you show proof of citizenship and identity.",
     "img" : [
       {
         "url":"https://upload.wikimedia.org/wikipedia/commons/5/54/Mount_Edziza%2C_British_Columbia.jpg",
@@ -370,7 +370,7 @@
     "region": "Eastern Europe",
     "status": "Unrecognized Russian puppet state that is recognized as a part of Moldova.",
     "category":"micronation",
-    "info": "This unrecognized \"country\" is a small sliver of land east of the Dnister River. It was formed as the USSR was collapsing and Soviet Republics were declaring independence, among which was the Moldovian SSR; The ethnic Russian minority in the east desired to remain with the USSR. It is recognized as part of Moldova by the international community",
+    "info": "This unrecognized \"country\" is a small sliver of land east of the Dnister River. It was formed as the USSR was collapsing and Soviet Republics were declaring independence, among which was the Moldovian SSR; The ethnic Russian minority in the east desired to remain with the USSR. It is recognized as part of Moldova by the international community. As a result, there are no flights that can be booked directly to the country. In order to travel there, you need to travel to Moldova, ideally the capital Chișinău, then you must take a bus, train, or car to the east, where you present your passport and fill out a migration card.\nTransnistria is a wonder for feeling like a country out of the past, but precaution may be necessary as it is not a free place, there is no expression and there is a presence of Russian mobsters",
     "img": [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dniester_in_Bender_01.JPG/1920px-Dniester_in_Bender_01.JPG",
@@ -453,8 +453,20 @@
     "info": "",
     "img" : [
       {
-        "url" : "",
-        "alt" : ""
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/5/54/Sealandafterfire2.JPG",
+        "alt" : "The \"country\" in its entirety."
+      },
+      {
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Map_of_Sealand_with_territorial_waters.svg/1280px-Map_of_Sealand_with_territorial_waters.svg.png",
+        "alt" : "Where the country is."
+      },
+      {
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sealand_Coins_Flag.jpg",
+        "alt" : "Where the country is."
+      },
+      {
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Sealand_Coat_of_Arms.svg/620px-Sealand_Coat_of_Arms.svg.png",
+        "alt":"Coat of arms"
       }
     ]
   },

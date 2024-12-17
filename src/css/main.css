@@ -37,7 +37,7 @@ div.place-info {
 
 div.scroll-bar {
   background-color: #f4d06f;
-  overflow: hidden;
+  overflow: auto;
   white-space: nowrap;
   
 }
@@ -113,8 +113,42 @@ div.scroll-bar img:hover {
   border-width: 0 3px 3px 0;
 }
 
-@keyframes text-emerge {
+img.pic
+{
+  height: 60px;
+  width: auto;
+  padding: 2px;
+  transition: all 1s ease-out;
 }
+
+img.pic:hover
+{
+  height: 600px;
+  padding: 2px;
+  width: auto;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes grow {
+  0% {
+    filter: drop-shadow(0 0 0.75rem grey);
+    
+    left:20px;
+  }
+  50% {
+    height: 120px;
+    filter: drop-shadow(0 0 0.75rem black);
+  }
+  100%{
+    height: 120px;
+    filter: drop-shadow(0 0 0.75rem grey);
+    top: 20px;
+  }
+}
+
+
+
+
 
 footer {
   background-color: #ff8811;
@@ -140,7 +174,7 @@ footer img {
   filter: brightness(0) invert(1);
   z-index: 5;
 }
-div.copy
+
 div.social
 {
   padding:2px;
