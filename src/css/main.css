@@ -5,20 +5,34 @@ body{
 header {
   background-color: #ff8811;
   width: 100%;
+  display:flex;
+  a {
+    padding:20px
+  }
   img {
     height: 90px;
     width: auto;
-    padding:25px;
+    padding: 25px;
   }
   
+  
+}
+div.border{
+  columns: 2;
 }
 
-.flag {
+img.flag {
   height: 50px;
   width: auto;
   padding: 2px;
 
   /*box-shadow: 10px 5px 5px black;*/
+}
+a.list {
+  float: right;
+  position: absolute;
+  right: 0px;
+  padding: 1px;
 }
 
 div.line
@@ -136,11 +150,11 @@ img.pic:hover
     left:20px;
   }
   50% {
-    height: 120px;
+    height: 100px;
     filter: drop-shadow(0 0 0.75rem black);
   }
   100%{
-    height: 120px;
+    height: 100px;
     filter: drop-shadow(0 0 0.75rem grey);
     top: 20px;
   }
@@ -154,18 +168,34 @@ footer {
   background-color: #ff8811;
   padding: 20px;
   color: white;
+  font-family: "Gill Sans", sans-serif;
+  display:flex;
 }
 footer a {
   /*border: 10px;*/
   text-decoration:none;
+  
 }
 footer a:visited
 {
   text-decoration:none;
 }
 footer img {
-  height: 25px;
+  height: 30px;
   width: auto;
+}
+
+div.copy{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 0px;
+}
+div.socials{
+  position: absolute;
+  right: 30px;
+  padding: 10px;
+
 }
 #black {
   background-color: black;
@@ -173,9 +203,4 @@ footer img {
 .white {
   filter: brightness(0) invert(1);
   z-index: 5;
-}
-
-div.social
-{
-  padding:2px;
 }
