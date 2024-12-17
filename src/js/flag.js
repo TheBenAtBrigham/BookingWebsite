@@ -1,4 +1,3 @@
-
 //npm install cors
 //npm start run
 
@@ -33,7 +32,7 @@ async function addCountryList(countryString)
   image.setAttribute("src",countryString.url);
   image.setAttribute("alt",countryString.alt);
 
-  anchor.setAttribute("href","");
+  anchor.setAttribute("href","./info.html");
 
   countryName.textContent = countryString.short;
 
@@ -42,6 +41,8 @@ async function addCountryList(countryString)
 
   scrollBar.appendChild(anchor);
 }
+
+
 
 
 
