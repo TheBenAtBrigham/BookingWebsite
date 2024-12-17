@@ -7,23 +7,37 @@ async function countryDisplayInfo(countryString)
 {
   const placeInfo = document.querySelector(".place-info");
 
-  const line = document.createElement("div");
+  const line1 = document.createElement("div");
+  const line2 = document.createElement("div");
 
-  line.classList.add('.line')
+
+  line1.classList.add('line');
+  line2.classList.add('line');
 
   const image = document.createElement('img');
   const countryName = document.createElement('h1');
+  const countryStatus = document.createElement('p');
+  const countryLoc = document.createElement('p');
 
-  image.classList.add('flag')
+  const countryInfo = document.createElement('p');
+
+  image.classList.add('flag');
   image.setAttribute("src",countryString.url);
   image.setAttribute("alt",countryString.alt);
 
+  //set information for
   countryName.textContent = countryString.name;
+  countryStatus.textContent = `Political status: ${countryString.status}`;
+  countryLoc.textContent = `Region: ${countryString.region}`;
+  countryInfo.textContent = "Info here..."
 
-  line.appendChild(image);
-  line.appendChild(countryName);
+  line1.appendChild(image);
+  line1.appendChild(countryName);
 
-  placeInfo.appendChild(line);
+  line2.appendChild(countryStatus, countryLoc);
+  
+
+  placeInfo.appendChild(line1, line2, countryInfo);
 }
 
 
@@ -47,9 +61,8 @@ fetch('./src/countries.json') // Path to your JSON file
 
     for (let i = 0; i < data.length; i++) {
       countryNames.push(data[i].short); // Accessing the 'size' value and pushing it to the array
-      if(data[i].short == objectString){
+      if(data[i].parameter == objectString){
         countryDisplayInfo(data[i])
-        console.log(i);
       }
     }
     console.log(countryNames); 

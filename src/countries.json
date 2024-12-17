@@ -1,7 +1,8 @@
 [
   {
     "name": "United States of America",
-    "short": "united_states",
+    "short": "United States",
+    "parameter" : "us",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/2560px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png",
     "alt": "American Flag",
     "region": "North America and Oceania",
@@ -14,7 +15,8 @@
   },
   {
     "name": "Canada",
-    "short": "canada",
+    "short": "Canada",
+    "parameter" : "canada",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/2560px-Flag_of_Canada_%28Pantone%29.svg.png",
     "alt": "Canadian Flag",
     "region": "North America",
@@ -22,7 +24,8 @@
   },
   {
     "name": "United Mexican States",
-    "short": "mexico",
+    "short": "Mexico",
+    "parameter" : "mexico",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1920px-Flag_of_Mexico.svg.png",
     "alt": "Mexican Flag",
     "region": "North America (Central America)",
@@ -30,7 +33,8 @@
   },
   {
     "name": "French Republic",
-    "short": "france",
+    "short": "France",
+    "parameter" : "france",
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1920px-Flag_of_France.svg.png",
     "alt": "French Flag",
     "region": "Western Europe (Globally if including Overseas Territories)",
@@ -38,7 +42,8 @@
   },
   {
     "name": "Italian Republic ",
-    "short": "italy",
+    "short": "Italy",
+    "parameter" : "Italy",
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1920px-Flag_of_Italy.svg.png",
     "alt": "Italian Flag",
     "region": "Southern and western Europe",
@@ -46,7 +51,8 @@
   },
   {
     "name": "Hellenic Republic",
-    "short": "greece",
+    "short": "Greece",
+    "parameter" : "greece",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1920px-Flag_of_Greece.svg.png",
     "alt": "Greek Flag",
     "region": "Southeast Europe and West Asia",
@@ -54,7 +60,8 @@
   },
   {
     "name": "Republic of Türkiye",
-    "short": "turkey",
+    "short": "Turkey",
+    "parameter" : "turkey",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1920px-Flag_of_Turkey.svg.png",
     "alt": "Turkish Flag",
     "region": "Southeast Europe and West Asia",
@@ -62,7 +69,8 @@
   },
   {
     "name": "Vatican City State",
-    "short": "vatican_city",
+    "short": "Vatican City",
+    "parameter" : "vatican",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/1280px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
     "alt": "Catholic Flag",
     "region": "Southern and western Europe",
@@ -70,7 +78,8 @@
   },
   {
     "name": "Swiss Confederation",
-    "short": "switzerland",
+    "short": "Switzerland",
+    "parameter" : "switzerland",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/1280px-Flag_of_Switzerland_%28Pantone%29.svg.png",
     "alt": "Swiss Flag",
     "region": "West-central Europe",
@@ -78,7 +87,8 @@
   },
   {
     "name": "Kingdom of Saudi Arabia",
-    "short": "saudi_arabia",
+    "short": "Saudi Arabia",
+    "parameter" : "saudi",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1920px-Flag_of_Saudi_Arabia.svg.png",
     "alt": "Saudi Arabian Flag",
     "region": "West Asia (Arabian Peninsula)",
@@ -86,7 +96,8 @@
   },
   {
     "name": "Commonwealth of Australia",
-    "short": "australia",
+    "short": "Australia",
+    "parameter" : "Australia",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/2560px-Flag_of_Australia_%28converted%29.svg.png",
     "alt": "Australian Flag",
     "region": "Oceania",
@@ -94,7 +105,8 @@
   },
   {
     "name": "Republic of China",
-    "short": "taiwan",
+    "short": "Taiwan",
+    "parameter" : "roc",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1920px-Flag_of_the_Republic_of_China.svg.png",
     "alt": "Taiwanese Flag",
     "region": "East Asia",
@@ -102,7 +114,8 @@
   },
   {
     "name": "People's Republic of China",
-    "short": "china",
+    "short": "China",
+    "parameter" : "prc",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1920px-Flag_of_the_People%27s_Republic_of_China.svg.png",
     "alt": "Chinese Flag",
     "region": "East Asia",
@@ -110,7 +123,8 @@
   },
   {
     "name": "State of Mongolia",
-    "short": "mongolia",
+    "short": "Mongolia",
+    "parameter" : "mongolia",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2560px-Flag_of_Mongolia.svg.png",
     "alt": "Mongolian Flag",
     "region": "East Asia",
@@ -118,7 +132,8 @@
   },
   {
     "name": "State of Japan",
-    "short": "japan",
+    "short": "Japan",
+    "parameter" : "japan",
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1920px-Flag_of_Japan.svg.png",
     "alt": "Japanese Flag",
     "region": "East Asia",
@@ -126,7 +141,8 @@
   },
   {
     "name": "Socialist Republic of Vietnam",
-    "short": "vietnam",
+    "short": "Vietnam",
+    "parameter" : "vietnam",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1920px-Flag_of_Vietnam.svg.png",
     "alt": "Vietnamese Flag",
     "region": "Southeast Asia",
@@ -134,7 +150,8 @@
   },
   {
     "name": "Malaysia",
-    "short": "malaysia",
+    "short": "Malaysia",
+    "parameter" : "malaysia",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/2560px-Flag_of_Malaysia.svg.png",
     "alt": "Malaysian Flag",
     "region": "Southeast Asia",
@@ -142,7 +159,8 @@
   },
   {
     "name": "Kingdom of Bhutan",
-    "short": "bhutan",
+    "short": "Bhutan",
+    "parameter" : "bhutan",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1920px-Flag_of_Bhutan.svg.png",
     "alt": "Bhutanese Flag",
     "region": "South Asia",
@@ -150,7 +168,8 @@
   },
   {
     "name": "Kingdom of Tonga",
-    "short": "tonga",
+    "short": "Tonga",
+    "parameter" : "tonga",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/2560px-Flag_of_Tonga.svg.png",
     "alt": "Tongan Flag",
     "region": "Oceania (Polynesia)",
@@ -158,7 +177,8 @@
   },
   {
     "name": "Republic of Moldova",
-    "short": "moldova",
+    "short": "Moldova",
+    "parameter" : "moldova",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/2560px-Flag_of_Moldova.svg.png",
     "alt": "Moldovan Flag",
     "region": "Eastern Europe",
@@ -166,7 +186,8 @@
   },
   {
     "name": "Pridnestrovian Moldavian Republic",
-    "short": "transnistria",
+    "short": "Transnistria",
+    "parameter" : "pmr",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Transnistria_%28state%29.svg/2560px-Flag_of_Transnistria_%28state%29.svg.png",
     "alt": "Transnistrian Flag",
     "region": "Eastern Europe",
@@ -174,7 +195,8 @@
   },
   {
     "name": "Russian Federation",
-    "short": "russia",
+    "short": "Russia",
+    "parameter" : "russia",
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1920px-Flag_of_Russia.svg.png",
     "alt": "Russian Flag",
     "region": "Eastern Europe and North Asia",
@@ -182,7 +204,8 @@
   },
   {
     "name": "Republic of Belarus",
-    "short": "belarus",
+    "short": "Belarus",
+    "parameter" : "belarus",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/2560px-Flag_of_Belarus.svg.png",
     "alt": "Belarusian Flag",
     "region": "Eastern Europe",
@@ -190,7 +213,8 @@
   },
   {
     "name": "Georgia",
-    "short": "georgia",
+    "short": "Georgia",
+    "parameter" : "georgia",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1920px-Flag_of_Georgia.svg.png",
     "alt": "Georgian Flag",
     "region": "Eastern Europe and West Asia",
@@ -198,7 +222,8 @@
   },
   {
     "name": "Principality of Sealand",
-    "short": "sealand",
+    "short": "Sealand",
+    "parameter" : "sealand",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Sealand.svg/1920px-Flag_of_Sealand.svg.png",
     "alt": "Sealander Flag",
     "region": "Northern Europe (British Isles)",
@@ -206,7 +231,8 @@
   },
   {
     "name": "United Kingdom of Great Britain and Northern Ireland",
-    "short": "united_kingdom",
+    "short": "United Kingdom",
+    "parameter" : "uk",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/250px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
     "alt": "ritish Flag",
     "region": "Northern Europe (British Isles)",
@@ -214,7 +240,8 @@
   },
   {
     "name": "Republic of Ireland",
-    "short": "ireland",
+    "short": "Ireland",
+    "parameter" : "ireland",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/2560px-Flag_of_Ireland.svg.png",
     "alt": "Irish Flag",
     "region": "Northern Europe (British Isles)",
@@ -222,7 +249,8 @@
   },
   {
     "name": "Republic of Molossia",
-    "short": "molossia",
+    "short": "Molossia",
+    "parameter" : "molossia",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_the_Republic_of_Molossia.svg/1920px-Flag_of_the_Republic_of_Molossia.svg.png",
     "alt": "Molossian Flag",
     "region": "North America",
@@ -230,7 +258,8 @@
   },
   {
     "name": "Republic of Liberia",
-    "short": "liberia",
+    "short": "Liberia",
+    "parameter" : "liberia",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/2560px-Flag_of_Liberia.svg.png",
     "alt": "Liberian Flag",
     "region": "West Africa",
@@ -238,7 +267,8 @@
   },
   {
     "name": "Syrian Arab Republic",
-    "short": "syria",
+    "short": "Syria",
+    "parameter" : "syria",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_the_Syrian_revolution.svg/1920px-Flag_of_the_Syrian_revolution.svg.png",
     "alt": "Syrian Flag",
     "region": "West Asia",
