@@ -7,7 +7,14 @@
     "alt": "American Flag",
     "region": "North America and Oceania",
     "status": "Presidential democratic republic.",
+    "category":"country",
     "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ],
     "cities": [
       {
         "city-name": "New York City"
@@ -22,6 +29,7 @@
     "alt": "Canadian Flag",
     "region": "North America",
     "status": "Parlamentary-based democracy with a constitutional monarch.",
+    "category":"country",
     "info": "This country is the second largest country in the world most of which vast forested wilderness, most of the country's population living along the U.S. and Canadian border. This country is one of the freest places in the world.",
     "img" : [
       {
@@ -46,7 +54,15 @@
     "alt": "Mexican Flag",
     "region": "North America (Central America)",
     "status": "Presidential democratic republic.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
+    
   },
   {
     "name": "French Republic",
@@ -56,7 +72,14 @@
     "alt": "French Flag",
     "region": "Western Europe (Globally if including Overseas Territories)",
     "status": "Dual-exective democratic republic.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Italian Republic ",
@@ -66,7 +89,14 @@
     "alt": "Italian Flag",
     "region": "Southern and western Europe",
     "status": "Parlamentary-based democratic republic with a ceremonial president.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Hellenic Republic",
@@ -76,7 +106,14 @@
     "alt": "Greek Flag",
     "region": "Southeast Europe and West Asia",
     "status": "Parlamentary-based democratic republic with a ceremonial president.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Republic of Türkiye",
@@ -86,7 +123,14 @@
     "alt": "Turkish Flag",
     "region": "Southeast Europe and West Asia",
     "status": "Presidential democratic republic.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Vatican City State",
@@ -96,7 +140,22 @@
     "alt": "Catholic Flag",
     "region": "Southern and western Europe",
     "status": "Theocratic absolute monarchy with a monarch (The Pope) elected by Cardinals in the Catholic Church",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Pano-P7264747-P7264763_%283189867%29.jpg/1620px-Pano-P7264747-P7264763_%283189867%29.jpg",
+        "alt" : "St. Peter's Square"
+      },
+      {
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Roma-san_giovanni03.jpg/1920px-Roma-san_giovanni03.jpg",
+        "alt" : "Holy See, the Pope's throne"
+      },
+      {
+        "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Portrait_of_Pope_Francis_%282021%29.jpg/800px-Portrait_of_Pope_Francis_%282021%29.jpg",
+        "alt" : "The Pope"
+      }
+    ]
   },
   {
     "name": "Swiss Confederation",
@@ -106,7 +165,14 @@
     "alt": "Swiss Flag",
     "region": "West-central Europe",
     "status": "Assembly-independent directorial democratic republic",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Kingdom of Saudi Arabia",
@@ -116,7 +182,14 @@
     "alt": "Saudi Arabian Flag",
     "region": "West Asia (Arabian Peninsula)",
     "status": "Absolute monarchy based on Shia Islamic nationalist principles.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Commonwealth of Australia",
@@ -126,7 +199,14 @@
     "alt": "Australian Flag",
     "region": "Oceania",
     "status": "Parlamentary-based democracy with a constitutional monarch.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Republic of China",
@@ -136,7 +216,14 @@
     "alt": "Taiwanese Flag",
     "region": "East Asia",
     "status": "Dual-exective democratic republic with a complex relationship with the UN despite being a UN founding state.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "People's Republic of China",
@@ -146,7 +233,14 @@
     "alt": "Chinese Flag",
     "region": "East Asia",
     "status": "One-party Marxist-Leninist Socialist (Or alternively, communist) republic",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "State of Mongolia",
@@ -156,7 +250,14 @@
     "alt": "Mongolian Flag",
     "region": "East Asia",
     "status": "Dual-exective democratic republic.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "State of Japan",
@@ -166,7 +267,14 @@
     "alt": "Japanese Flag",
     "region": "East Asia",
     "status": "Parlamentary-based democracy with a constitutional monarch.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Socialist Republic of Vietnam",
@@ -176,7 +284,14 @@
     "alt": "Vietnamese Flag",
     "region": "Southeast Asia",
     "status": "One-party Marxist-Leninist Socialist  (Or alternively, communist) republic.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Malaysia",
@@ -186,7 +301,14 @@
     "alt": "Malaysian Flag",
     "region": "Southeast Asia",
     "status": "Parlamentary-based democracy with an elected constitutional monarch.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Kingdom of Bhutan",
@@ -196,7 +318,14 @@
     "alt": "Bhutanese Flag",
     "region": "South Asia",
     "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Kingdom of Tonga",
@@ -206,7 +335,14 @@
     "alt": "Tongan Flag",
     "region": "Oceania (Polynesia)",
     "status": "Parlamentary-based democracy with a constitutional monarch that wields executive power.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Republic of Moldova",
@@ -216,7 +352,14 @@
     "alt": "Moldovan Flag",
     "region": "Eastern Europe",
     "status": "Parlamentary-based democratic republic with a ceremonial president.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Pridnestrovian Moldavian Republic",
@@ -226,6 +369,7 @@
     "alt": "Transnistrian Flag",
     "region": "Eastern Europe",
     "status": "Unrecognized Russian puppet state that is recognized as a part of Moldova.",
+    "category":"micronation",
     "info": "This unrecognized \"country\" is a small sliver of land east of the Dnister River. It was formed as the USSR was collapsing and Soviet Republics were declaring independence, among which was the Moldovian SSR; The ethnic Russian minority in the east desired to remain with the USSR. It is recognized as part of Moldova by the international community",
     "img": [
     {
@@ -238,7 +382,7 @@
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/House_of_Soviets_%2842912066861%29.jpg/1920px-House_of_Soviets_%2842912066861%29.jpg",
-      "alt": "The Domsovyetov in Tiraspol"
+      "alt": "The Domsovyetov (House of soviets) in Tiraspol"
     },
     {
       "url" : "https://upload.wikimedia.org/wikipedia/commons/1/14/%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B2%D0%B5%D1%82_%D0%B8_%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%9F%D0%9C%D0%A0.jpg",
@@ -254,7 +398,14 @@
     "alt": "Russian Flag",
     "region": "Eastern Europe and North Asia",
     "status": "Dual-exective democratic republic under a fascist dictatorship.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Republic of Belarus",
@@ -264,7 +415,14 @@
     "alt": "Belarusian Flag",
     "region": "Eastern Europe",
     "status": "Dual-exective democratic republic under a fascist dictatorship.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Georgia",
@@ -274,7 +432,14 @@
     "alt": "Georgian Flag",
     "region": "Eastern Europe and West Asia",
     "status": "Parlamentary-based democratic republic with a ceremonial president.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Principality of Sealand",
@@ -284,7 +449,14 @@
     "alt": "Sealander Flag",
     "region": "Northern Europe (British Isles)",
     "status": "Unrecognized micronation off the southeastern coast of the United Kingdom (specifically, England).",
-    "info": ""
+    "category":"micronation",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "United Kingdom of Great Britain and Northern Ireland",
@@ -294,7 +466,14 @@
     "alt": "ritish Flag",
     "region": "Northern Europe (British Isles)",
     "status": "Parlamentary-based democracy with a constitutional monarch.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Republic of Ireland",
@@ -304,7 +483,14 @@
     "alt": "Irish Flag",
     "region": "Northern Europe (British Isles)",
     "status": "Parlamentary-based democratic republic with a ceremonial president.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Republic of Molossia",
@@ -314,7 +500,14 @@
     "alt": "Molossian Flag",
     "region": "North America",
     "status": "Unrecognized humorous micronation inside the State of Nevada in the United States of America.",
-    "info": ""
+    "category":"micronation",
+    "info": "This self-proclaimed \"republic\" was created as a joke military dictatorship by Kevin Baugh, who identifies as its \"President\".",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Republic of Liberia",
@@ -324,7 +517,14 @@
     "alt": "Liberian Flag",
     "region": "West Africa",
     "status": "Presidential democratic republic.",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   },
   {
     "name": "Syrian Arab Republic",
@@ -334,15 +534,13 @@
     "alt": "Syrian Flag",
     "region": "West Asia",
     "status": "Republic under a provisional government after the overthrow of the Assadist Hereditary Dictatorship.",
-    "info": ""
-  },
-  {
-    "name": "",
-    "short": "",
-    "url": "",
-    "alt": "",
-    "region": "Everywhere",
-    "status": "",
-    "info": ""
+    "category":"country",
+    "info": "",
+    "img" : [
+      {
+        "url" : "",
+        "alt" : ""
+      }
+    ]
   }
 ]

@@ -37,8 +37,9 @@ div.place-info {
 
 div.scroll-bar {
   background-color: #f4d06f;
-  overflow: auto;
+  overflow: hidden;
   white-space: nowrap;
+  
 }
 
 div.scroll-bar a {
