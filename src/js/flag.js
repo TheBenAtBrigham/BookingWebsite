@@ -32,7 +32,7 @@ async function addCountryList(countryString)
   image.setAttribute("src",countryString.url);
   image.setAttribute("alt",countryString.alt);
 
-  anchor.setAttribute("href",`./info.html?country="${countryString.short}"`);
+  anchor.setAttribute("href",`./info.html?country=${countryString.short}`);
 
   countryName.textContent = countryString.short;
 
@@ -72,6 +72,7 @@ fetch('./src/countries.json') // Path to your JSON file
     for (let i = 0; i < data.length; i++) {
       countryNames.push(data[i].short); // Accessing the 'size' value and pushing it to the array
       addCountryList(data[i]);
+      
     }
     console.log(countryNames); 
 
