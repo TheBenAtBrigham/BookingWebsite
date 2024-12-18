@@ -1,7 +1,6 @@
 //npm install cors
 //npm start run
 
-//AIzaSyAbu9S5cLdwk18FUGNPoZEQLMT5xFBj610
 
 async function loadThisJSON(filePath)
 { try
