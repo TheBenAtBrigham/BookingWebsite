@@ -2,6 +2,9 @@ body{
   margin:0px;
   background-color: #fff8f0;
 }
+#map {
+  height: 400px;
+}
 header {
   background-color: #ff8811;
   width: 100%;
@@ -37,10 +40,50 @@ a.list {
   right: 0px;
   padding: 1px;
 }
+button{
+  border-radius: 50%;
+  background-color: #fff8f0;
+  border: #ff8811 2px solid;
+  height: 20px;
+  width: 20px;
+  
+}
+button:hover{
+  animation: flash 2s infinite;
+}
+button:active
+{
+  background-color: #5c5cc9 2px solid;
+  border:  #fff8f0;
+}
 
 div.line
 {
   border-bottom: 1px solid black;
+}
+
+fieldset{
+  columns: 3;
+  font-family: Georgia, serif;
+}
+
+div.pref-button{
+
+  position: absolute;
+  right: 30px;
+  bottom: 350px;
+  padding: 0px;
+}
+div.which{
+  padding-bottom: 2px;
+}  
+
+input{
+  background-color: #fff8f0;
+  border: #ff8811 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2px;
 }
 
 div.place-info {
@@ -56,7 +99,6 @@ div.scroll-bar {
   background-color: #f4d06f;
   overflow: auto;
   white-space: nowrap;
-  
 }
 
 div.scroll-bar a {
@@ -97,6 +139,11 @@ div.scroll-bar a:hover {
     transition: all 1s ease-out;
   }
 }
+legend{
+  text-align: center;
+  font-family: sans-serif;
+  color:#ff8811;
+}
 
 div.scroll-bar img:hover {
   position: relative;
@@ -122,6 +169,8 @@ div.scroll-bar img:hover {
     color 1s;
 }
 
+
+
 .arrow:hover {
   transform: rotate(45deg);
   display: inline-block;
@@ -146,20 +195,19 @@ img.pic:hover
   transition: all 1s ease-in-out;
 }
 
-@keyframes grow {
+@keyframes flash {
   0% {
-    filter: drop-shadow(0 0 0.75rem grey);
-    
-    left:20px;
+    background-color: #fff8f0;
+    border: #ff8811 2px solid;
   }
-  50% {
-    height: 100px;
-    filter: drop-shadow(0 0 0.75rem black);
+  
+  50%{
+    background-color: #ff8811;
+    border: #ff8811 2px solid;
   }
-  100%{
-    height: 100px;
-    filter: drop-shadow(0 0 0.75rem grey);
-    top: 20px;
+  100% {
+    background-color: #fff8f0;
+    border: #ff8811 2px solid;
   }
 }
 
@@ -170,7 +218,7 @@ img.pic:hover
 footer {
   background-color: #ff8811;
   padding: 20px;
-  color: white;
+  color: #fff8f0;
   font-family: "Gill Sans", sans-serif;
   display:flex;
 }
@@ -198,12 +246,4 @@ div.socials{
   position: absolute;
   right: 30px;
   padding: 10px;
-
-}
-#black {
-  background-color: black;
-}
-.white {
-  filter: brightness(0) invert(1);
-  z-index: 5;
 }

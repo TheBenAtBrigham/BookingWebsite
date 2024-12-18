@@ -4,19 +4,80 @@
     <link rel="stylesheet" href="./src/css/main.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <title>Country</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbu9S5cLdwk18FUGNPoZEQLMT5xFBj610&callback=initialize" async defer></script>
   </head>
   <body>
     <header>
-      <a href="./index.html">
-        <img src="./images/bookit.png" alt="Logo">
-      </a>
+      <div class="border">
+        <a href="./index.html"><img src="./images/bookit.png" alt="Logo"></a>
+        <a class="list" href="./list.html"><img src="./images/list.png" alt="Logo"></a>
+      </div>
     </header>
     <main>
         <div class="place-info">
           
+
+
+          <div id="map"></div>  
         </div>
-        <div id="map" style="width: 600px; height: 400px;"></div> 
+        <script>
+
+          async function initMap() {
+            const { Map } = await google.maps.importLibrary("maps");
+
+            const map = new Map(document.getElementById("map"), {
+              center: { lat: 40.7128, lng: -74.0060 }, // Replace with your desired coordinates
+              zoom: 12,
+            });
+          }
+
+          initMap();
+        </script>
+
+        <legend>To book a travel, fill out the information below and press the button to the right.</legend>
+        <fieldset>
+        <form>
+        <div>
+          <div class="which">
+            <input type="email" name="email" placeholder="name@domain.com">
+          </div>
+          <div class="which">
+            <input type="tel" name="email" placeholder="+# (###) ###-####">
+          </div>
+          
+        </div>
+        <div>
+          <div class="which">
+            <label for="time">Select time: </label>
+            <input type="time" name="time" id="time">
+          </div>
+          <div class="which">
+            <label for="date">Select date: </label>
+            <input type="date" id="date" name="date">
+          </div>
+          
+        </div>
+        <div>
+          <div class="which">
+            <input type="radio" name="docchi" id="e-mail">
+            <label for="e-mail">Email</label>
+          </div>
+          <div class="which">
+            <input type="radio" name="docchi" id="phone">
+            <label for="phone">Phone</label>
+          </div>
+          <div class="which">
+            <input type="radio" name="docchi" id="text">
+            <label for="text">Text</label>
+          </div>
+          
+        </div>
+        </form>
+        <div class="pref-button">
+          
+          <button type="button"></button>
+        </div>
+        </fieldset>
+        <!--div id="map" style="width: 600px; height: 400px;"></div--> 
 
     </main>
     <footer>
