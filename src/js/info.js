@@ -2,6 +2,17 @@ const queryString = window.location.search;
 let objectString = queryString.split('=')[1];
 console.log(queryString, objectString);
 
+async function initMap() {
+    const { Map } = await google.maps.importLibrary("maps");
+  
+    const map = new Map(document.getElementById("map"), {
+      center: { lat: 40.7128, lng: -74.0060 }, // Replace with your desired coordinates
+      zoom: 12,
+    });
+  }
+  
+  initMap();
+
 
 
 async function countryDisplayInfo(countryString)
