@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./src/css/main.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <title>Country</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbu9S5cLdwk18FUGNPoZEQLMT5xFBj610&callback=initialize" async defer></script>
   </head>
   <body>
     <header>
@@ -15,6 +16,26 @@
         <div class="place-info">
           
         </div>
+        <div id="map" style="width: 600px; height: 400px;"></div> 
+        <!--script>
+
+          function initialize() {
+  
+              var mapProp = {
+  
+                  center: { lat: 47.11831356574975, lng: 29.41818755261429 }, // Coordinates for New York City (example)
+                  
+                  zoom: 6
+  
+              };
+  
+  
+  
+              var map = new google.maps.Map(document.getElementById("map"), mapProp);
+  
+          }
+  
+      </script-->
     </main>
     <footer>
       <div class="copy"><p>&copy2025 Book It!, Inc.</p></div>

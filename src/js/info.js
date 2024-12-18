@@ -2,6 +2,17 @@ const queryString = window.location.search;
 let objectString = queryString.split('=')[1];
 console.log(queryString, objectString);
 
+async function initMap() {
+    const { Map } = await google.maps.importLibrary("maps");
+  
+    const map = new Map(document.getElementById("map"), {
+      center: { lat: 40.7128, lng: -74.0060 }, // Replace with your desired coordinates
+      zoom: 12,
+    });
+  }
+  
+  initMap();
+
 
 async function countryDisplayInfo(countryString)
 {
@@ -16,6 +27,7 @@ async function countryDisplayInfo(countryString)
   line2.classList.add('line');
   line3.classList.add('scroll-bar');
 
+  
   const image = document.createElement('img');
   const countryName = document.createElement('h1');
   const countryStatus = document.createElement('p');
@@ -55,6 +67,7 @@ async function countryDisplayInfo(countryString)
   placeInfo.appendChild(line2);
   placeInfo.appendChild(countryInfo);
   placeInfo.appendChild(line3);
+  document.title = countryString.short;
 }
 
 
