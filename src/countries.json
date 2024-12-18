@@ -19,7 +19,8 @@
       {
         "city-name": "New York City"
       }
-    ]
+    ], 
+    "coordinates" : [{"lat": 47.39591913930893, "lng" : 29.205644942136516, "zoom": 0}]
   },
   {
     "name": "Canada",
@@ -44,7 +45,8 @@
         "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wolverine_on_rock.jpg/1920px-Wolverine_on_rock.jpg",
         "alt":"Wolverine"
       }
-    ]
+    ],
+    "coordinates" : [{"lat": 58.99028593945568, "lng" : -106.8243467413974, "zoom": 3}]
   },
   {
     "name": "United Mexican States",
@@ -359,7 +361,8 @@
         "url" : "",
         "alt" : ""
       }
-    ]
+    ],
+    "coordinates" : [{"lat": 47.39591913930893, "lng" : 29.205644942136516, "zoom": 6}]
   },
   {
     "name": "Pridnestrovian Moldavian Republic",
@@ -382,13 +385,14 @@
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/House_of_Soviets_%2842912066861%29.jpg/1920px-House_of_Soviets_%2842912066861%29.jpg",
-      "alt": "The Domsovyetov (House of soviets) in Tiraspol"
+      "alt": "The Domsovyetov (House of soviets) in Tiraspol'"
     },
     {
       "url" : "https://upload.wikimedia.org/wikipedia/commons/1/14/%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B2%D0%B5%D1%82_%D0%B8_%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%9F%D0%9C%D0%A0.jpg",
       "alt" : "Supreme Council... and Lenin..."
     }
-  ]
+  ],
+  "coordinates" : [{"lat": 47.39591913930893, "lng" : 29.205644942136516, "zoom": 6}]
   },
   {
     "name": "Russian Federation",

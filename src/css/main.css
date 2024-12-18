@@ -20,6 +20,9 @@ header {
 div.border{
   columns: 2;
 }
+main{
+  min-height: 900px;
+}
 
 img.flag {
   height: 50px;

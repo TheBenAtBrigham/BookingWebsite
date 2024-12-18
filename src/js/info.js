@@ -3,6 +3,7 @@ let objectString = queryString.split('=')[1];
 console.log(queryString, objectString);
 
 
+
 async function countryDisplayInfo(countryString)
 {
   const placeInfo = document.querySelector(".place-info");
@@ -16,6 +17,7 @@ async function countryDisplayInfo(countryString)
   line2.classList.add('line');
   line3.classList.add('scroll-bar');
 
+  
   const image = document.createElement('img');
   const countryName = document.createElement('h1');
   const countryStatus = document.createElement('p');
@@ -55,6 +57,7 @@ async function countryDisplayInfo(countryString)
   placeInfo.appendChild(line2);
   placeInfo.appendChild(countryInfo);
   placeInfo.appendChild(line3);
+  document.title = countryString.short;
 }
 
 
