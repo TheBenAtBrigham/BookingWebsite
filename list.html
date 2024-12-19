@@ -19,7 +19,25 @@
       <div class="requests">
         <h1>Here are your requests</h1>
       </div>
-      
+      <script>
+        function deleteElement(event) {
+          const inputElement = event.target;  
+
+          const parentDiv = inputElement.parentNode;
+
+          header = parentDiv.querySelector("h2");;
+          headerText = header.textContent.split('.')[0]
+
+          console.log(headerText);
+
+          var ls_index = `ls_list:${headerText}`;
+
+
+          localStorage.removeItem(ls_index);
+          parentDiv.remove();
+        }
+
+      </script>
     </main>
     <footer>
       <div class="copy"><p>&copy2025 Book It!, Inc.</p></div>

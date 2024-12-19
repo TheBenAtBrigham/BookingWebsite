@@ -1,24 +1,9 @@
 const main = document.querySelector(".requests");
 
-async function deleteElement(event) {
-    const inputElement = event.target;  
-
-    const parentDiv = inputElement.parentNode;
-
-    header = parentDiv.querySelector("h2");;
-    headerText = header.textContent.split('.')[0]
-
-    console.log(headerText);
-
-    var ls_index = `ls_list:${headerText}`;
 
 
-    localStorage.removeItem(ls_index);
-    parentDiv.remove();
-}
 
-
-async function getLists(data)
+async function getLists()
 {
     let items = [];
     for (let i = 0; i < localStorage.length; i++) {
@@ -93,8 +78,6 @@ fetch('./src/countries.json') // Path to your JSON file
     console.error('Error fetching or parsing JSON:', error);
   });
 
-
-getLists();
 
 
         
