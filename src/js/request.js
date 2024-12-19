@@ -98,22 +98,21 @@ getLists();
 
 
         
-const myElement = document.getElementById("location");
+const x = document.getElementById("location");
 
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
-    myElement.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+        }
 
-function showPosition(position) {
-  myElement.innerHTML =
-    "Your Latitude is: " +
-    position.coords.latitude + " and Longitude is: " + position.coords.longitude;
-}
-
+        function showPosition(position) {
+          x.innerHTML = "Your Latitude is: " + position.coords.latitude +
+          " and Longitude is: " + position.coords.longitude;
+        }
+        getLocation();
         
 
 
