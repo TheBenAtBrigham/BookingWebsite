@@ -58,6 +58,13 @@ div.border{
 
 }
 
+p#location{
+  color:#fff8f0;
+  background-color: #ff8811;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
 
 footer {
     background-color: #fff8f0;

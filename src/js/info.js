@@ -1,6 +1,6 @@
 const queryString = window.location.search;
 let objectString = queryString.split('=')[1];
-console.log(queryString, objectString);
+
 
 
 
@@ -72,25 +72,18 @@ fetch('./src/countries.json') // Path to your JSON file
   .then(data => {
     // Work with your JSON data here
     const names = data.map(item => item.name);
-    console.log(names);
 
     const countryNames = [];
 
 
     for (let i = 0; i < data.length; i++) {
       countryNames.push(data[i].short); // Accessing the 'size' value and pushing it to the array
-      if(data[i].parameter == objectString){
+      if(data[i].parameter === objectString){
         countryDisplayInfo(data[i])
       }
     }
-    console.log(countryNames); 
-
-    // Access data elements like data.key1, data.key2, etc.
   })
   .catch(error => {
     console.error('Error fetching or parsing JSON:', error);
   });
-
-
-
 

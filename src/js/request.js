@@ -1,5 +1,23 @@
 const main = document.querySelector(".requests");
 
+async function deleteElement(event) {
+    const inputElement = event.target;  
+
+    const parentDiv = inputElement.parentNode;
+
+    header = parentDiv.querySelector("h2");;
+    headerText = header.textContent.split('.')[0]
+
+    console.log(headerText);
+
+    var ls_index = `ls_list:${headerText}`;
+
+
+    localStorage.removeItem(ls_index);
+    parentDiv.remove();
+}
+
+
 async function getLists(data)
 {
     let items = [];
@@ -70,10 +88,6 @@ fetch('./src/countries.json') // Path to your JSON file
   .then(data => {
     // Work with your JSON data here
     getLists(data);
-    
-    console.log(countryNames); 
-
-    // Access data elements like data.key1, data.key2, etc.
   })
   .catch(error => {
     console.error('Error fetching or parsing JSON:', error);
@@ -82,25 +96,24 @@ fetch('./src/countries.json') // Path to your JSON file
 
 getLists();
 
+
         
-        
+const myElement = document.getElementById("location");
 
-function deleteElement(event) {
-    const inputElement = event.target;  
-
-    const parentDiv = inputElement.parentNode;
-
-    header = parentDiv.querySelector("h2");;
-    headerText = header.textContent.split('.')[0]
-
-    console.log(headerText);
-
-    var ls_index = `ls_list:${headerText}`;
-
-
-    localStorage.removeItem(ls_index);
-    parentDiv.remove();
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    myElement.innerHTML = "Geolocation is not supported by this browser.";
+  }
 }
+
+function showPosition(position) {
+  myElement.innerHTML =
+    "Your Latitude is: " +
+    position.coords.latitude + " and Longitude is: " + position.coords.longitude;
+}
+
         
 
 

@@ -12,11 +12,33 @@
       </div>
     </header>
     <main>
-      
+      <div>
+        <p id="location"></p>
+
+      </div>
       <div class="requests">
         <h1>Here are your requests</h1>
       </div>
+      
+      <script>
+        const x = document.getElementById("location");
 
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Your Latitude is: " + position.coords.latitude +
+  " and Longitude is: " + position.coords.longitude;
+}
+getLocation();
+
+
+      </script>
     </main>
     <footer>
       <div class="copy"><p>&copy2025 Book It!, Inc.</p></div>
@@ -38,6 +60,6 @@
         </a>
       </div> 
     </footer>
-    <script src="./src/js/request.js" type="module"></script>
+    <!--script src="./src/js/request.js" type="module"></script-->
   </body>
 </html>
