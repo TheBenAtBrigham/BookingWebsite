@@ -1,6 +1,6 @@
 const main = document.querySelector(".requests");
 
-async function getLists()
+async function getLists(arrayThis)
 {
     let items = [];
     for (let i = 0; i < localStorage.length; i++) {
@@ -29,10 +29,10 @@ async function getLists()
     let dateTimeList = document.createElement("p");
     let contactAt = document.createElement("p");
 
-    for (let i = 0; i < data.length; i++) {
-        if (data[i].parameter === items[key].country)
+    for (let i = 0; i < arrayThis.length; i++) {
+        if (arrayThis[i].parameter === items[key].country)
         {
-            countryList.textContent = `${numberIndex}. ${data[i].short}`;
+            countryList.textContent = `${numberIndex}. ${arrayThis[i].short}`;
         }
         
     }
