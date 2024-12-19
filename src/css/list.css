@@ -1,10 +1,12 @@
 body{
     margin:0px;
+
     background-color: #fff8f0;
 }
+
 header {
     background-color: #fff8f0;
-    width: 100%;
+
     display:flex;
     a{
       padding:20px;
@@ -15,6 +17,7 @@ header {
       padding: 25px;
     } 
 }
+
 img.flag {
     height: 50px;
     width: auto;
@@ -30,26 +33,45 @@ a.list {
 main{
     min-height: 900px;
     background-color: #f4d06f;
+    padding-bottom: 20px;
 }
+h1{
+  color:#ff8811;
+  padding: 20px;
+  text-align: center;
+}
+div.requests
+{
+  margin:2px;
+}
+div.request{
+  background:#fff8f0;
+  font-family: "Gill Sans", sans-serif;
+  margin: 15px;
+  padding: 20px;
+  
+}
+div.request div{columns: 2;}
+
 div.border{
-    columns: 2;
+  columns: 2;
+
 }
 
 
-
-
-  footer {
+footer {
     background-color: #fff8f0;
     padding: 20px;
     color: #ff8811;
     font-family: "Gill Sans", sans-serif;
     display:flex;
-  }
-  footer a {
+}
+
+footer a {
     /*border: 10px;*/
     text-decoration:none;
     
-  }
+}
   footer a:visited
   {
     text-decoration:none;

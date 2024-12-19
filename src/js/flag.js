@@ -28,7 +28,7 @@ async function addCountryList(countryString)
   const image = document.createElement('img');
   const countryName = document.createElement('p');
 
-  image.classList.add('flag')
+  image.classList.add('flag');
   image.setAttribute("src",countryString.url);
   image.setAttribute("alt",countryString.alt);
 
@@ -47,7 +47,6 @@ async function addCountryList(countryString)
 
 
 const myArray = loadThisJSON('./src/countries.json')
-console.log(myArray);
 
 
 

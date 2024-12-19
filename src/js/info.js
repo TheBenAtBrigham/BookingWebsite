@@ -12,11 +12,9 @@ async function countryDisplayInfo(countryString)
   const line2 = document.createElement("div");
   const line3 = document.createElement("div");
 
-
   line1.classList.add('line');
   line2.classList.add('line');
   line3.classList.add('scroll-bar');
-
   
   const image = document.createElement('img');
   const countryName = document.createElement('h1');
