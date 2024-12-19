@@ -1,8 +1,5 @@
 const main = document.querySelector(".requests");
 
-
-
-
 async function getLists()
 {
     let items = [];
